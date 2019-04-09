@@ -1,0 +1,43 @@
+/*Author: Guilherme Nascimento */
+
+/* Lexical Parser */
+!whitespace : '\t' | '\n' | '\r' | ' ' ;
+!lineComment  : '*' '*' { . } '\n' ;
+!blockComment : '>' '>' { . | '*' } '<' '<' ;
+
+_digit : '0'-'9' ;
+_letter : 'A'-'Z' | 'a'-'z' | '_' ;
+_alpha: _digit | _letter;
+_floatPoints: {_digit} ',' {_digit}; 
+
+/* Types  Definition fp = float point, cn = scientific notation */
+int_literal: {_digit} | '-'{_digit};
+fp_literal: {_digit} ',' {_digit}; 
+sn_literal: { _floatPoints } 'E' { _floatPoints } | {_digit} 'E' {_digit};
+char_literal : '\''( _alpha | '\\''n' | '\\''t' | ' ') '\'';
+
+/* Reserved Words */
+if: 'i''f';
+else: 'e''l''s''e';
+while: 'w' 'h' 'i' 'l' 'e';
+return: 'r''e''t''u''r''n';
+float: 'f''l''o''a''t';
+char: 'c''h''a''r';
+void: 'v''o''i''d';
+prnt: 'p''r''n''t';
+int: 'i''n''t';
+and: 'a''n''d';
+or: 'o''r';
+not: 'n''o''t';
+proc: 'p''r''o''c';
+var: 'v''a''r';
+
+identifier: 'a'-'z'{_alpha};
+
+/* symbols */
+relacionalSymbol : '<' | '>' | '<''=' | '>''=' | '='| '<''>';
+arithmeticSymbol: '+' | '-' | '*' | '/' | '%' | 'a''n''d' | 'o''r' | 'n''o''t';
+assignSymbol: ':''=';
+specialSymbol: ')' | '(' | ',' | ';' | '{' | '}';
+
+
