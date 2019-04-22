@@ -5,8 +5,10 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
-	"shaken1/projetocompilador/lexer"
-	"shaken1/projetocompilador/token"
+
+	"github.com/Equanox/gotron"
+	"github.com/shaken1/projetocompilador/lexer"
+	"github.com/shaken1/projetocompilador/token"
 )
 
 func main() {
@@ -28,6 +30,23 @@ func main() {
 		}
 	}
 	fmt.Println("Lexical Sucess!")
+	//UI
+	window, err := gotron.New("ui_assets")
+	if err != nil {
+		panic(err)
+	}
+	window.On(&gotron.Event{Event: "close"}, func(bin []byte) {
+		window.Close()
+	})
+	window.WindowOptions.Width = 1280
+	window.WindowOptions.Height = 720
+	window.WindowOptions.Title = "Rufus Editor"
+	window.WindowOptions.Frame = false
+	done, err := window.Start()
+	if err != nil {
+		panic(err)
+	}
+	<-done
 }
 
 func getFileAsString(filePath string) (string, error) {
