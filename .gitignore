@@ -4,3 +4,4 @@
 *.rufus
 /.gotron
 /socket
+/editor/node_modules

@@ -1,0 +1,59 @@
+body {
+  background-color: #f3f3f3;
+}
+
+#file-path {
+  background-color: white;
+  border: 1px solid #CCD2D9;
+  margin: 10px 0;
+  padding: 5px;
+}
+#file-path h6 {
+  margin-top: 5px;
+}
+
+#nav {
+  background-color: #242424;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#nav .nav-item {
+  margin-right: 10px;
+  cursor: pointer;
+}
+#nav .nav-item :link,
+#nav .nav-item :visited,
+#nav .nav-item :active {
+  color: white;
+}
+#nav .nav-item :hover {
+  color: #999999;
+}
+
+#program-data #program-text {
+  resize: none;
+  border-radius: 0;
+}
+#program-data #table {
+  background-color: white;
+  border: 1px solid #CCD2D9;
+}
+#program-data #table tbody {
+  display: block;
+  max-height: 500px;
+  overflow: auto;
+}
+#program-data #table thead,
+#program-data #table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+#program-data .err-box {
+  background-color: white;
+  border: 1px solid #CCD2D9;
+  margin: 10px 0;
+  padding: 4px;
+}
+
+/*# sourceMappingURL=editor.css.map */

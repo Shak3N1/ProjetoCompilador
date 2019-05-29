@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"trollzinho_da_night/lexer"
-	"trollzinho_da_night/token"
+
+	"github.com/shaken1/ProjetoCompilador/lexer"
+	"github.com/shaken1/ProjetoCompilador/token"
 )
 
 type Token struct {
-	lexema   string
-	atributo string
-	linha    uint
+	token  string
+	lexeme string
+	line   uint
 }
 
 func lexAnalyze(data string) []Token {
@@ -18,13 +19,13 @@ func lexAnalyze(data string) []Token {
 	for {
 		if tok := Lexer.Scan(); tok != nil {
 			if tok.Type == token.TokMap.Type("INVALID") {
-				_token := Token{"ERROR", string(tok.Lit), uint(tok.Pos.Line)}
+				_token := Token{"ERROR", string(tok.Lit), uint(tok.Line)}
 				tokens = append(tokens, _token)
 				break
 			} else if tok.Type == token.EOF {
 				break
 			}
-			_token := Token{token.TokMap.Id(tok.Type), string(tok.Lit), uint(tok.Pos.Line)}
+			_token := Token{token.TokMap.Id(tok.Type), string(tok.Lit), uint(tok.Line)}
 			tokens = append(tokens, _token)
 		} else {
 			break

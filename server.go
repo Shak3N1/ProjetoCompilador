@@ -2,10 +2,12 @@ package main
 
 import (
 	"bufio"
+	"fmt"
 	"io"
 	"log"
 	"net"
 	"os"
+	"regexp"
 	"strconv"
 	"strings"
 )
@@ -30,24 +32,27 @@ func ProtocolServer(port int) {
 func handler(conn net.Conn) {
 	defer conn.Close()
 	var (
-		buf = make([]byte, 8192)
-		r   = bufio.NewReader(conn)
-		w   = bufio.NewWriter(conn)
+		buff = make([]byte, 8192)
+		r    = bufio.NewReader(conn)
+		w    = bufio.NewWriter(conn)
 	)
 LOOP:
 	for {
-		n, err := r.Read(buf)
-		data := string(buf[:n])
+		n, err := r.Read(buff)
+		data := string(buff[:n])
 		switch err {
 		case io.EOF:
 			break LOOP
 		case nil:
-			dataSplited := strings.Fields(data)
+			dataSplited := regexp.MustCompile(" ").Split(data, 2)
 			switch dataSplited[0] {
 			case "getTokens":
-				program := strings.Join(dataSplited[1:len(dataSplited)-1], " ")
-				tokens := lexAnalyze(program)
-
+				tokens := lexAnalyze(dataSplited[1])
+				for _, token := range tokens {
+					w.Write([]byte(fmt.Sprintf("sendToken %s %s %d ", token.token,
+						token.lexeme, token.line)))
+				}
+				w.Flush()
 				break
 			}
 			if isPacketEnd(data) {
@@ -58,8 +63,6 @@ LOOP:
 			return
 		}
 	}
-	w.Write([]byte("sai"))
-	w.Flush()
 }
 
 func isPacketEnd(data string) (over bool) {
