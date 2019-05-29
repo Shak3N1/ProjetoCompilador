@@ -8,3 +8,6 @@ Interface - 80% </br>
 <p align="center">
   <img width="716" height="400" src="https://i.imgur.com/tPYn8Vc.png">
 </p>
+### Executando
+go build </br>
+npm start </br>
