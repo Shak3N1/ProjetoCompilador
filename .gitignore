@@ -1,7 +1,3 @@
-/lexer
-/token
-/util
 *.rufus
-/.gotron
-/socket
-/editor/node_modules
+/node_modules
+ProjetoCompilador

@@ -1,9 +1,21 @@
-const fs = require("fs");
-const net = require("net");
-
-
-
+/*jshint esversion: 6 */
+const fs = require('fs');
+const net = require('net');
+const exec = require('child_process').execFile;
+const os = require('os');
 $(document).ready(function () {
+    if (os.platform == 'win32') {
+        exec("ProjetoCompilador.exe");
+    } else if (os.platform == "linux") {
+        exec("./ProjetoCompilador");
+    }
+    class Token {
+        constructor(token, lexeme, line) {
+            this.token = token;
+            this.lexeme = lexeme;
+            this.line = line;
+        }
+    }
     let client = new net.Socket();
     $("#open-file").click(function () {
         fs.readFile(document.getElementById("upload").files[0].path, (err, data) => {
@@ -29,13 +41,6 @@ $(document).ready(function () {
         client.write('getTokens ' + data);
     });
 
-    class Token {
-        constructor(token, lexeme, line) {
-            this.token = token;
-            this.lexeme = lexeme;
-            this.line = line;
-        }
-    }
     client.connect(9261, '127.0.0.1', function () {
         console.log('Connected');
     });
@@ -63,7 +68,7 @@ $(document).ready(function () {
                 if (token.token == "ERROR") {
                     $("#lex-errs").append(
                         token.token + " " +
-                        " Lexema: " + token.lexeme + 
+                        " Lexema: " + token.lexeme +
                         " Linha: " + token.line
                     );
                 }
