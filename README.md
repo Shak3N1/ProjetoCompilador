@@ -8,6 +8,8 @@ Interface - 80% </br>
 <p align="center">
   <img width="716" height="400" src="https://i.imgur.com/tPYn8Vc.png">
 </p>
+
 ### Executando
-go build </br>
-npm start </br>
+primeiro compile o compilador com o comando "go build" </br>
+inicie o editor com o comando "npm start" </br>
+
