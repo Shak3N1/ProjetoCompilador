@@ -301,7 +301,7 @@ var productionsTable = ProdTab{
 		},
 	},
 	ProdTabEntry{
-		String: `Command : Block	<<  >>`,
+		String: `Command : IfBlock	<<  >>`,
 		Id:         "Command",
 		NTType:     12,
 		Index:      28,
@@ -311,10 +311,30 @@ var productionsTable = ProdTab{
 		},
 	},
 	ProdTabEntry{
+		String: `Command : FuncBlock	<<  >>`,
+		Id:         "Command",
+		NTType:     12,
+		Index:      29,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Command : Block	<<  >>`,
+		Id:         "Command",
+		NTType:     12,
+		Index:      30,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
 		String: `Assign : identifier assign Expression endline	<<  >>`,
 		Id:         "Assign",
 		NTType:     13,
-		Index:      29,
+		Index:      31,
 		NumSymbols: 4,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
@@ -324,7 +344,7 @@ var productionsTable = ProdTab{
 		String: `Print : prnt lbracket Expressions rbracket endline	<<  >>`,
 		Id:         "Print",
 		NTType:     14,
-		Index:      30,
+		Index:      32,
 		NumSymbols: 5,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
@@ -334,7 +354,7 @@ var productionsTable = ProdTab{
 		String: `Return : return Expression endline	<<  >>`,
 		Id:         "Return",
 		NTType:     15,
-		Index:      31,
+		Index:      33,
 		NumSymbols: 3,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
@@ -344,18 +364,288 @@ var productionsTable = ProdTab{
 		String: `WhileBlock : while lbracket Expression rbracket Command	<<  >>`,
 		Id:         "WhileBlock",
 		NTType:     16,
-		Index:      32,
+		Index:      34,
 		NumSymbols: 5,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
 		},
 	},
 	ProdTabEntry{
-		String: `Expression : identifier minus identifier	<<  >>`,
-		Id:         "Expression",
+		String: `IfBlock : if lbracket Expression rbracket Command	<<  >>`,
+		Id:         "IfBlock",
 		NTType:     17,
-		Index:      33,
+		Index:      35,
+		NumSymbols: 5,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `IfBlock : if lbracket Expression rbracket Command else Command	<<  >>`,
+		Id:         "IfBlock",
+		NTType:     17,
+		Index:      36,
+		NumSymbols: 7,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `FuncBlock : FuncCall endline	<<  >>`,
+		Id:         "FuncBlock",
+		NTType:     18,
+		Index:      37,
+		NumSymbols: 2,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `FuncCall : identifier lbracket Expressions rbracket FuncCall	<<  >>`,
+		Id:         "FuncCall",
+		NTType:     19,
+		Index:      38,
+		NumSymbols: 5,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `FuncCall : empty	<<  >>`,
+		Id:         "FuncCall",
+		NTType:     19,
+		Index:      39,
+		NumSymbols: 0,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return nil, nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression minus Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      40,
 		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression plus Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      41,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression product Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      42,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression division Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      43,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression rest Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      44,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression eq Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      45,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression greater Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      46,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression lesser Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      47,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression greaterOrEq Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      48,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression lesserOrEq Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      49,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression different Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      50,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression or Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      51,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : Expression and Expression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      52,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `Expression : BasicExpression	<<  >>`,
+		Id:         "Expression",
+		NTType:     20,
+		Index:      53,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : lbracket Expression rbracket	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      54,
+		NumSymbols: 3,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : minus BasicExpression	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      55,
+		NumSymbols: 2,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : not BasicExpression	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      56,
+		NumSymbols: 2,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : int_literal	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      57,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : fp_literal	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      58,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : sn_literal	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      59,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : char_literal	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      60,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : identifier	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      61,
+		NumSymbols: 1,
+		ReduceFunc: func(X []Attrib) (Attrib, error) {
+			return X[0], nil
+		},
+	},
+	ProdTabEntry{
+		String: `BasicExpression : FuncCall	<<  >>`,
+		Id:         "BasicExpression",
+		NTType:     21,
+		Index:      62,
+		NumSymbols: 1,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
 		},
@@ -363,18 +653,18 @@ var productionsTable = ProdTab{
 	ProdTabEntry{
 		String: `Expressions : Expression	<<  >>`,
 		Id:         "Expressions",
-		NTType:     18,
-		Index:      34,
+		NTType:     22,
+		Index:      63,
 		NumSymbols: 1,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
 		},
 	},
 	ProdTabEntry{
-		String: `Expressions : Expression comma Expression	<<  >>`,
+		String: `Expressions : Expression comma Expressions	<<  >>`,
 		Id:         "Expressions",
-		NTType:     18,
-		Index:      35,
+		NTType:     22,
+		Index:      64,
 		NumSymbols: 3,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return X[0], nil
@@ -383,8 +673,8 @@ var productionsTable = ProdTab{
 	ProdTabEntry{
 		String: `Expressions : empty	<<  >>`,
 		Id:         "Expressions",
-		NTType:     18,
-		Index:      36,
+		NTType:     22,
+		Index:      65,
 		NumSymbols: 0,
 		ReduceFunc: func(X []Attrib) (Attrib, error) {
 			return nil, nil

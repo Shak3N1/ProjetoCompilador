@@ -1,0 +1,13 @@
+proc main(){ 
+	var n, nrebuilt - int; 
+	n := 46546132; 
+	>> A divisão de inteiros 
+	arredonda para baixo (em caso de divisão inexata).
+	Assim, numeros impares ficarao com uma unidade a menos do que seu
+	valor inicial<< 
+	nrebuilt := (n/2) *2;
+	if  (n = nRebuilt )
+		prnt( 'P', 'A', 'R' ); 
+	else 
+		prnt('I' , 'M' , 'P' , 'A' , 'R' ); 	
+} 

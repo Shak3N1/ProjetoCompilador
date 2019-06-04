@@ -35,16 +35,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S1
@@ -71,16 +80,25 @@ var actionTab = actionTable{
 			nil,          /* prnt */
 			nil,          /* return */
 			nil,          /* while */
-			nil,          /* arithmeticSymbol */
-			nil,          /* char_literal */
-			nil,          /* else */
-			nil,          /* fp_literal */
 			nil,          /* if */
-			nil,          /* int_literal */
-			nil,          /* not */
+			nil,          /* else */
+			nil,          /* plus */
+			nil,          /* product */
+			nil,          /* division */
+			nil,          /* rest */
+			nil,          /* eq */
+			nil,          /* greater */
+			nil,          /* lesser */
+			nil,          /* greaterOrEq */
+			nil,          /* lesserOrEq */
+			nil,          /* different */
 			nil,          /* or */
-			nil,          /* relacionalSymbol */
+			nil,          /* and */
+			nil,          /* not */
+			nil,          /* int_literal */
+			nil,          /* fp_literal */
 			nil,          /* sn_literal */
+			nil,          /* char_literal */
 		},
 	},
 	actionRow{ // S2
@@ -107,16 +125,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S3
@@ -143,16 +170,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S4
@@ -179,16 +215,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S5
@@ -215,16 +260,25 @@ var actionTab = actionTable{
 			nil,      /* prnt */
 			nil,      /* return */
 			nil,      /* while */
-			nil,      /* arithmeticSymbol */
-			nil,      /* char_literal */
-			nil,      /* else */
-			nil,      /* fp_literal */
 			nil,      /* if */
-			nil,      /* int_literal */
-			nil,      /* not */
+			nil,      /* else */
+			nil,      /* plus */
+			nil,      /* product */
+			nil,      /* division */
+			nil,      /* rest */
+			nil,      /* eq */
+			nil,      /* greater */
+			nil,      /* lesser */
+			nil,      /* greaterOrEq */
+			nil,      /* lesserOrEq */
+			nil,      /* different */
 			nil,      /* or */
-			nil,      /* relacionalSymbol */
+			nil,      /* and */
+			nil,      /* not */
+			nil,      /* int_literal */
+			nil,      /* fp_literal */
 			nil,      /* sn_literal */
+			nil,      /* char_literal */
 		},
 	},
 	actionRow{ // S6
@@ -251,16 +305,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S7
@@ -287,16 +350,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S8
@@ -323,16 +395,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S9
@@ -359,16 +440,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S10
@@ -395,16 +485,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S11
@@ -431,16 +530,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S12
@@ -467,16 +575,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S13
@@ -503,16 +620,25 @@ var actionTab = actionTable{
 			nil,      /* prnt */
 			nil,      /* return */
 			nil,      /* while */
-			nil,      /* arithmeticSymbol */
-			nil,      /* char_literal */
-			nil,      /* else */
-			nil,      /* fp_literal */
 			nil,      /* if */
-			nil,      /* int_literal */
-			nil,      /* not */
+			nil,      /* else */
+			nil,      /* plus */
+			nil,      /* product */
+			nil,      /* division */
+			nil,      /* rest */
+			nil,      /* eq */
+			nil,      /* greater */
+			nil,      /* lesser */
+			nil,      /* greaterOrEq */
+			nil,      /* lesserOrEq */
+			nil,      /* different */
 			nil,      /* or */
-			nil,      /* relacionalSymbol */
+			nil,      /* and */
+			nil,      /* not */
+			nil,      /* int_literal */
+			nil,      /* fp_literal */
 			nil,      /* sn_literal */
+			nil,      /* char_literal */
 		},
 	},
 	actionRow{ // S14
@@ -539,16 +665,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S15
@@ -575,16 +710,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S16
@@ -611,16 +755,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S17
@@ -631,7 +784,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(22), /* var, reduce: Commands */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(22), /* endline, reduce: Commands */
 			reduce(22), /* identifier, reduce: Commands */
 			nil,        /* comma */
 			nil,        /* float */
@@ -647,16 +800,25 @@ var actionTab = actionTable{
 			reduce(22), /* prnt, reduce: Commands */
 			reduce(22), /* return, reduce: Commands */
 			reduce(22), /* while, reduce: Commands */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(22), /* if, reduce: Commands */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S18
@@ -683,16 +845,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S19
@@ -719,16 +890,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S20
@@ -755,16 +935,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S21
@@ -791,16 +980,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S22
@@ -827,16 +1025,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S23
@@ -863,16 +1070,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S24
@@ -899,16 +1115,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S25
@@ -935,16 +1160,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S26
@@ -971,16 +1205,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S27
@@ -1007,16 +1250,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S28
@@ -1043,16 +1295,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S29
@@ -1079,16 +1340,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S30
@@ -1115,52 +1385,70 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S31
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			shift(37), /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(38), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			shift(40), /* lbrace */
-			shift(41), /* rbrace */
-			nil,       /* assign */
-			shift(47), /* prnt */
-			shift(48), /* return */
-			shift(49), /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(37),  /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(38),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(40),  /* lbrace */
+			shift(41),  /* rbrace */
+			nil,        /* assign */
+			shift(49),  /* prnt */
+			shift(50),  /* return */
+			shift(51),  /* while */
+			shift(52),  /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S32
@@ -1187,16 +1475,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S33
@@ -1210,10 +1507,10 @@ var actionTab = actionTable{
 			nil,       /* endline */
 			nil,       /* identifier */
 			nil,       /* comma */
-			shift(51), /* float */
-			shift(52), /* int */
-			shift(53), /* char */
-			shift(54), /* void */
+			shift(55), /* float */
+			shift(56), /* int */
+			shift(57), /* char */
+			shift(58), /* void */
 			nil,       /* proc */
 			nil,       /* lbracket */
 			nil,       /* rbracket */
@@ -1223,16 +1520,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S34
@@ -1259,16 +1565,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S35
@@ -1295,16 +1610,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S36
@@ -1315,7 +1639,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(23), /* var, reduce: Command */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(23), /* endline, reduce: Command */
 			reduce(23), /* identifier, reduce: Command */
 			nil,        /* comma */
 			nil,        /* float */
@@ -1331,16 +1655,25 @@ var actionTab = actionTable{
 			reduce(23), /* prnt, reduce: Command */
 			reduce(23), /* return, reduce: Command */
 			reduce(23), /* while, reduce: Command */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(23), /* if, reduce: Command */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S37
@@ -1367,16 +1700,25 @@ var actionTab = actionTable{
 			nil,      /* prnt */
 			nil,      /* return */
 			nil,      /* while */
-			nil,      /* arithmeticSymbol */
-			nil,      /* char_literal */
-			nil,      /* else */
-			nil,      /* fp_literal */
 			nil,      /* if */
-			nil,      /* int_literal */
-			nil,      /* not */
+			nil,      /* else */
+			nil,      /* plus */
+			nil,      /* product */
+			nil,      /* division */
+			nil,      /* rest */
+			nil,      /* eq */
+			nil,      /* greater */
+			nil,      /* lesser */
+			nil,      /* greaterOrEq */
+			nil,      /* lesserOrEq */
+			nil,      /* different */
 			nil,      /* or */
-			nil,      /* relacionalSymbol */
+			nil,      /* and */
+			nil,      /* not */
+			nil,      /* int_literal */
+			nil,      /* fp_literal */
 			nil,      /* sn_literal */
+			nil,      /* char_literal */
 		},
 	},
 	actionRow{ // S38
@@ -1395,24 +1737,33 @@ var actionTab = actionTable{
 			nil,       /* char */
 			nil,       /* void */
 			nil,       /* proc */
-			nil,       /* lbracket */
+			shift(61), /* lbracket */
 			nil,       /* rbracket */
 			nil,       /* lbrace */
 			nil,       /* rbrace */
-			shift(57), /* assign */
+			shift(62), /* assign */
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S39
@@ -1421,10 +1772,10 @@ var actionTab = actionTable{
 			nil,        /* INVALID */
 			nil,        /* $ */
 			nil,        /* empty */
-			reduce(28), /* var, reduce: Command */
+			reduce(30), /* var, reduce: Command */
 			nil,        /* minus */
-			nil,        /* endline */
-			reduce(28), /* identifier, reduce: Command */
+			reduce(30), /* endline, reduce: Command */
+			reduce(30), /* identifier, reduce: Command */
 			nil,        /* comma */
 			nil,        /* float */
 			nil,        /* int */
@@ -1433,22 +1784,31 @@ var actionTab = actionTable{
 			nil,        /* proc */
 			nil,        /* lbracket */
 			nil,        /* rbracket */
-			reduce(28), /* lbrace, reduce: Command */
-			reduce(28), /* rbrace, reduce: Command */
+			reduce(30), /* lbrace, reduce: Command */
+			reduce(30), /* rbrace, reduce: Command */
 			nil,        /* assign */
-			reduce(28), /* prnt, reduce: Command */
-			reduce(28), /* return, reduce: Command */
-			reduce(28), /* while, reduce: Command */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(30), /* prnt, reduce: Command */
+			reduce(30), /* return, reduce: Command */
+			reduce(30), /* while, reduce: Command */
+			reduce(30), /* if, reduce: Command */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S40
@@ -1459,7 +1819,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(22), /* var, reduce: Commands */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(22), /* endline, reduce: Commands */
 			reduce(22), /* identifier, reduce: Commands */
 			nil,        /* comma */
 			nil,        /* float */
@@ -1475,16 +1835,25 @@ var actionTab = actionTable{
 			reduce(22), /* prnt, reduce: Commands */
 			reduce(22), /* return, reduce: Commands */
 			reduce(22), /* while, reduce: Commands */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(22), /* if, reduce: Commands */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S41
@@ -1511,16 +1880,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S42
@@ -1531,7 +1909,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(21), /* var, reduce: Commands */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(21), /* endline, reduce: Commands */
 			reduce(21), /* identifier, reduce: Commands */
 			nil,        /* comma */
 			nil,        /* float */
@@ -1547,16 +1925,25 @@ var actionTab = actionTable{
 			reduce(21), /* prnt, reduce: Commands */
 			reduce(21), /* return, reduce: Commands */
 			reduce(21), /* while, reduce: Commands */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(21), /* if, reduce: Commands */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S43
@@ -1567,7 +1954,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(24), /* var, reduce: Command */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(24), /* endline, reduce: Command */
 			reduce(24), /* identifier, reduce: Command */
 			nil,        /* comma */
 			nil,        /* float */
@@ -1583,16 +1970,25 @@ var actionTab = actionTable{
 			reduce(24), /* prnt, reduce: Command */
 			reduce(24), /* return, reduce: Command */
 			reduce(24), /* while, reduce: Command */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(24), /* if, reduce: Command */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S44
@@ -1603,7 +1999,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(25), /* var, reduce: Command */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(25), /* endline, reduce: Command */
 			reduce(25), /* identifier, reduce: Command */
 			nil,        /* comma */
 			nil,        /* float */
@@ -1619,16 +2015,25 @@ var actionTab = actionTable{
 			reduce(25), /* prnt, reduce: Command */
 			reduce(25), /* return, reduce: Command */
 			reduce(25), /* while, reduce: Command */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(25), /* if, reduce: Command */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S45
@@ -1639,7 +2044,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(26), /* var, reduce: Command */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(26), /* endline, reduce: Command */
 			reduce(26), /* identifier, reduce: Command */
 			nil,        /* comma */
 			nil,        /* float */
@@ -1655,16 +2060,25 @@ var actionTab = actionTable{
 			reduce(26), /* prnt, reduce: Command */
 			reduce(26), /* return, reduce: Command */
 			reduce(26), /* while, reduce: Command */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(26), /* if, reduce: Command */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S46
@@ -1675,7 +2089,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(27), /* var, reduce: Command */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(27), /* endline, reduce: Command */
 			reduce(27), /* identifier, reduce: Command */
 			nil,        /* comma */
 			nil,        /* float */
@@ -1691,88 +2105,115 @@ var actionTab = actionTable{
 			reduce(27), /* prnt, reduce: Command */
 			reduce(27), /* return, reduce: Command */
 			reduce(27), /* while, reduce: Command */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(27), /* if, reduce: Command */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S47
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			shift(59), /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(28), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(28), /* endline, reduce: Command */
+			reduce(28), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(28), /* lbrace, reduce: Command */
+			reduce(28), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(28), /* prnt, reduce: Command */
+			reduce(28), /* return, reduce: Command */
+			reduce(28), /* while, reduce: Command */
+			reduce(28), /* if, reduce: Command */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S48
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(60), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(29), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(29), /* endline, reduce: Command */
+			reduce(29), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(29), /* lbrace, reduce: Command */
+			reduce(29), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(29), /* prnt, reduce: Command */
+			reduce(29), /* return, reduce: Command */
+			reduce(29), /* while, reduce: Command */
+			reduce(29), /* if, reduce: Command */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S49
@@ -1791,7 +2232,7 @@ var actionTab = actionTable{
 			nil,       /* char */
 			nil,       /* void */
 			nil,       /* proc */
-			shift(62), /* lbracket */
+			shift(64), /* lbracket */
 			nil,       /* rbracket */
 			nil,       /* lbrace */
 			nil,       /* rbrace */
@@ -1799,16 +2240,25 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S50
@@ -1818,10 +2268,190 @@ var actionTab = actionTable{
 			nil,        /* $ */
 			nil,        /* empty */
 			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S51
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,       /* INVALID */
+			nil,       /* $ */
+			nil,       /* empty */
+			nil,       /* var */
+			nil,       /* minus */
+			nil,       /* endline */
+			nil,       /* identifier */
+			nil,       /* comma */
+			nil,       /* float */
+			nil,       /* int */
+			nil,       /* char */
+			nil,       /* void */
+			nil,       /* proc */
+			shift(76), /* lbracket */
+			nil,       /* rbracket */
+			nil,       /* lbrace */
+			nil,       /* rbrace */
+			nil,       /* assign */
+			nil,       /* prnt */
+			nil,       /* return */
+			nil,       /* while */
+			nil,       /* if */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
+			nil,       /* or */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
+			nil,       /* sn_literal */
+			nil,       /* char_literal */
+		},
+	},
+	actionRow{ // S52
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,       /* INVALID */
+			nil,       /* $ */
+			nil,       /* empty */
+			nil,       /* var */
+			nil,       /* minus */
+			nil,       /* endline */
+			nil,       /* identifier */
+			nil,       /* comma */
+			nil,       /* float */
+			nil,       /* int */
+			nil,       /* char */
+			nil,       /* void */
+			nil,       /* proc */
+			shift(77), /* lbracket */
+			nil,       /* rbracket */
+			nil,       /* lbrace */
+			nil,       /* rbrace */
+			nil,       /* assign */
+			nil,       /* prnt */
+			nil,       /* return */
+			nil,       /* while */
+			nil,       /* if */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
+			nil,       /* or */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
+			nil,       /* sn_literal */
+			nil,       /* char_literal */
+		},
+	},
+	actionRow{ // S53
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,       /* INVALID */
+			nil,       /* $ */
+			nil,       /* empty */
+			nil,       /* var */
+			nil,       /* minus */
+			shift(78), /* endline */
+			nil,       /* identifier */
+			nil,       /* comma */
+			nil,       /* float */
+			nil,       /* int */
+			nil,       /* char */
+			nil,       /* void */
+			nil,       /* proc */
+			nil,       /* lbracket */
+			nil,       /* rbracket */
+			nil,       /* lbrace */
+			nil,       /* rbrace */
+			nil,       /* assign */
+			nil,       /* prnt */
+			nil,       /* return */
+			nil,       /* while */
+			nil,       /* if */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
+			nil,       /* or */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
+			nil,       /* sn_literal */
+			nil,       /* char_literal */
+		},
+	},
+	actionRow{ // S54
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
 			nil,        /* minus */
 			nil,        /* endline */
 			nil,        /* identifier */
-			shift(63),  /* comma */
+			shift(79),  /* comma */
 			nil,        /* float */
 			nil,        /* int */
 			nil,        /* char */
@@ -1835,19 +2465,28 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S51
+	actionRow{ // S55
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,       /* INVALID */
@@ -1871,19 +2510,28 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
-	actionRow{ // S52
+	actionRow{ // S56
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,       /* INVALID */
@@ -1907,19 +2555,28 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
-	actionRow{ // S53
+	actionRow{ // S57
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,       /* INVALID */
@@ -1943,19 +2600,28 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
-	actionRow{ // S54
+	actionRow{ // S58
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -1979,19 +2645,28 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S55
+	actionRow{ // S59
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -2015,160 +2690,25 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
-			nil,        /* or */
-			nil,        /* relacionalSymbol */
-			nil,        /* sn_literal */
-		},
-	},
-	actionRow{ // S56
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			shift(64), /* minus */
-			nil,       /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S57
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(60), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S58
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			shift(37), /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(38), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			shift(40), /* lbrace */
-			shift(66), /* rbrace */
-			nil,       /* assign */
-			shift(47), /* prnt */
-			shift(48), /* return */
-			shift(49), /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S59
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,        /* INVALID */
-			nil,        /* $ */
-			nil,        /* empty */
-			nil,        /* var */
-			nil,        /* minus */
-			nil,        /* endline */
-			shift(67),  /* identifier */
-			nil,        /* comma */
-			nil,        /* float */
-			nil,        /* int */
-			nil,        /* char */
-			nil,        /* void */
-			nil,        /* proc */
-			nil,        /* lbracket */
-			reduce(36), /* rbracket, reduce: Expressions */
-			nil,        /* lbrace */
-			nil,        /* rbrace */
-			nil,        /* assign */
-			nil,        /* prnt */
-			nil,        /* return */
-			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 	actionRow{ // S60
@@ -2178,7 +2718,7 @@ var actionTab = actionTable{
 			nil,       /* $ */
 			nil,       /* empty */
 			nil,       /* var */
-			shift(70), /* minus */
+			shift(80), /* minus */
 			nil,       /* endline */
 			nil,       /* identifier */
 			nil,       /* comma */
@@ -2195,91 +2735,838 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
 	actionRow{ // S61
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			shift(71), /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
 		},
 	},
 	actionRow{ // S62
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(72), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
 		},
 	},
 	actionRow{ // S63
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(37),  /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(38),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(40),  /* lbrace */
+			shift(94),  /* rbrace */
+			nil,        /* assign */
+			shift(49),  /* prnt */
+			shift(50),  /* return */
+			shift(51),  /* while */
+			shift(52),  /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S64
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S65
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S66
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(61), /* minus, reduce: BasicExpression */
+			reduce(61), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(97),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(61), /* plus, reduce: BasicExpression */
+			reduce(61), /* product, reduce: BasicExpression */
+			reduce(61), /* division, reduce: BasicExpression */
+			reduce(61), /* rest, reduce: BasicExpression */
+			reduce(61), /* eq, reduce: BasicExpression */
+			reduce(61), /* greater, reduce: BasicExpression */
+			reduce(61), /* lesser, reduce: BasicExpression */
+			reduce(61), /* greaterOrEq, reduce: BasicExpression */
+			reduce(61), /* lesserOrEq, reduce: BasicExpression */
+			reduce(61), /* different, reduce: BasicExpression */
+			reduce(61), /* or, reduce: BasicExpression */
+			reduce(61), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S67
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S68
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			shift(110), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S69
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(62), /* minus, reduce: BasicExpression */
+			reduce(62), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(62), /* plus, reduce: BasicExpression */
+			reduce(62), /* product, reduce: BasicExpression */
+			reduce(62), /* division, reduce: BasicExpression */
+			reduce(62), /* rest, reduce: BasicExpression */
+			reduce(62), /* eq, reduce: BasicExpression */
+			reduce(62), /* greater, reduce: BasicExpression */
+			reduce(62), /* lesser, reduce: BasicExpression */
+			reduce(62), /* greaterOrEq, reduce: BasicExpression */
+			reduce(62), /* lesserOrEq, reduce: BasicExpression */
+			reduce(62), /* different, reduce: BasicExpression */
+			reduce(62), /* or, reduce: BasicExpression */
+			reduce(62), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S70
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(53), /* minus, reduce: Expression */
+			reduce(53), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(53), /* plus, reduce: Expression */
+			reduce(53), /* product, reduce: Expression */
+			reduce(53), /* division, reduce: Expression */
+			reduce(53), /* rest, reduce: Expression */
+			reduce(53), /* eq, reduce: Expression */
+			reduce(53), /* greater, reduce: Expression */
+			reduce(53), /* lesser, reduce: Expression */
+			reduce(53), /* greaterOrEq, reduce: Expression */
+			reduce(53), /* lesserOrEq, reduce: Expression */
+			reduce(53), /* different, reduce: Expression */
+			reduce(53), /* or, reduce: Expression */
+			reduce(53), /* and, reduce: Expression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S71
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S72
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(57), /* minus, reduce: BasicExpression */
+			reduce(57), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(57), /* plus, reduce: BasicExpression */
+			reduce(57), /* product, reduce: BasicExpression */
+			reduce(57), /* division, reduce: BasicExpression */
+			reduce(57), /* rest, reduce: BasicExpression */
+			reduce(57), /* eq, reduce: BasicExpression */
+			reduce(57), /* greater, reduce: BasicExpression */
+			reduce(57), /* lesser, reduce: BasicExpression */
+			reduce(57), /* greaterOrEq, reduce: BasicExpression */
+			reduce(57), /* lesserOrEq, reduce: BasicExpression */
+			reduce(57), /* different, reduce: BasicExpression */
+			reduce(57), /* or, reduce: BasicExpression */
+			reduce(57), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S73
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(58), /* minus, reduce: BasicExpression */
+			reduce(58), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(58), /* plus, reduce: BasicExpression */
+			reduce(58), /* product, reduce: BasicExpression */
+			reduce(58), /* division, reduce: BasicExpression */
+			reduce(58), /* rest, reduce: BasicExpression */
+			reduce(58), /* eq, reduce: BasicExpression */
+			reduce(58), /* greater, reduce: BasicExpression */
+			reduce(58), /* lesser, reduce: BasicExpression */
+			reduce(58), /* greaterOrEq, reduce: BasicExpression */
+			reduce(58), /* lesserOrEq, reduce: BasicExpression */
+			reduce(58), /* different, reduce: BasicExpression */
+			reduce(58), /* or, reduce: BasicExpression */
+			reduce(58), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S74
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(59), /* minus, reduce: BasicExpression */
+			reduce(59), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(59), /* plus, reduce: BasicExpression */
+			reduce(59), /* product, reduce: BasicExpression */
+			reduce(59), /* division, reduce: BasicExpression */
+			reduce(59), /* rest, reduce: BasicExpression */
+			reduce(59), /* eq, reduce: BasicExpression */
+			reduce(59), /* greater, reduce: BasicExpression */
+			reduce(59), /* lesser, reduce: BasicExpression */
+			reduce(59), /* greaterOrEq, reduce: BasicExpression */
+			reduce(59), /* lesserOrEq, reduce: BasicExpression */
+			reduce(59), /* different, reduce: BasicExpression */
+			reduce(59), /* or, reduce: BasicExpression */
+			reduce(59), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S75
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(60), /* minus, reduce: BasicExpression */
+			reduce(60), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(60), /* plus, reduce: BasicExpression */
+			reduce(60), /* product, reduce: BasicExpression */
+			reduce(60), /* division, reduce: BasicExpression */
+			reduce(60), /* rest, reduce: BasicExpression */
+			reduce(60), /* eq, reduce: BasicExpression */
+			reduce(60), /* greater, reduce: BasicExpression */
+			reduce(60), /* lesser, reduce: BasicExpression */
+			reduce(60), /* greaterOrEq, reduce: BasicExpression */
+			reduce(60), /* lesserOrEq, reduce: BasicExpression */
+			reduce(60), /* different, reduce: BasicExpression */
+			reduce(60), /* or, reduce: BasicExpression */
+			reduce(60), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S76
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S77
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S78
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(37), /* var, reduce: FuncBlock */
+			nil,        /* minus */
+			reduce(37), /* endline, reduce: FuncBlock */
+			reduce(37), /* identifier, reduce: FuncBlock */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(37), /* lbrace, reduce: FuncBlock */
+			reduce(37), /* rbrace, reduce: FuncBlock */
+			nil,        /* assign */
+			reduce(37), /* prnt, reduce: FuncBlock */
+			reduce(37), /* return, reduce: FuncBlock */
+			reduce(37), /* while, reduce: FuncBlock */
+			reduce(37), /* if, reduce: FuncBlock */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S79
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -2303,19 +3590,28 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S64
+	actionRow{ // S80
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,       /* INVALID */
@@ -2339,55 +3635,613 @@ var actionTab = actionTable{
 			nil,       /* prnt */
 			nil,       /* return */
 			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
 			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
-	actionRow{ // S65
+	actionRow{ // S81
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			shift(76), /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
 		},
 	},
-	actionRow{ // S66
+	actionRow{ // S82
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(61), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(61), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(129), /* lbracket */
+			reduce(61), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(61), /* plus, reduce: BasicExpression */
+			reduce(61), /* product, reduce: BasicExpression */
+			reduce(61), /* division, reduce: BasicExpression */
+			reduce(61), /* rest, reduce: BasicExpression */
+			reduce(61), /* eq, reduce: BasicExpression */
+			reduce(61), /* greater, reduce: BasicExpression */
+			reduce(61), /* lesser, reduce: BasicExpression */
+			reduce(61), /* greaterOrEq, reduce: BasicExpression */
+			reduce(61), /* lesserOrEq, reduce: BasicExpression */
+			reduce(61), /* different, reduce: BasicExpression */
+			reduce(61), /* or, reduce: BasicExpression */
+			reduce(61), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S83
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S84
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			shift(132), /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(63), /* rbracket, reduce: Expressions */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S85
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(145), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S86
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(62), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(62), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(62), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(62), /* plus, reduce: BasicExpression */
+			reduce(62), /* product, reduce: BasicExpression */
+			reduce(62), /* division, reduce: BasicExpression */
+			reduce(62), /* rest, reduce: BasicExpression */
+			reduce(62), /* eq, reduce: BasicExpression */
+			reduce(62), /* greater, reduce: BasicExpression */
+			reduce(62), /* lesser, reduce: BasicExpression */
+			reduce(62), /* greaterOrEq, reduce: BasicExpression */
+			reduce(62), /* lesserOrEq, reduce: BasicExpression */
+			reduce(62), /* different, reduce: BasicExpression */
+			reduce(62), /* or, reduce: BasicExpression */
+			reduce(62), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S87
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(53), /* minus, reduce: Expression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(53), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(53), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(53), /* plus, reduce: Expression */
+			reduce(53), /* product, reduce: Expression */
+			reduce(53), /* division, reduce: Expression */
+			reduce(53), /* rest, reduce: Expression */
+			reduce(53), /* eq, reduce: Expression */
+			reduce(53), /* greater, reduce: Expression */
+			reduce(53), /* lesser, reduce: Expression */
+			reduce(53), /* greaterOrEq, reduce: Expression */
+			reduce(53), /* lesserOrEq, reduce: Expression */
+			reduce(53), /* different, reduce: Expression */
+			reduce(53), /* or, reduce: Expression */
+			reduce(53), /* and, reduce: Expression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S88
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S89
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(57), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(57), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(57), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(57), /* plus, reduce: BasicExpression */
+			reduce(57), /* product, reduce: BasicExpression */
+			reduce(57), /* division, reduce: BasicExpression */
+			reduce(57), /* rest, reduce: BasicExpression */
+			reduce(57), /* eq, reduce: BasicExpression */
+			reduce(57), /* greater, reduce: BasicExpression */
+			reduce(57), /* lesser, reduce: BasicExpression */
+			reduce(57), /* greaterOrEq, reduce: BasicExpression */
+			reduce(57), /* lesserOrEq, reduce: BasicExpression */
+			reduce(57), /* different, reduce: BasicExpression */
+			reduce(57), /* or, reduce: BasicExpression */
+			reduce(57), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S90
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(58), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(58), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(58), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(58), /* plus, reduce: BasicExpression */
+			reduce(58), /* product, reduce: BasicExpression */
+			reduce(58), /* division, reduce: BasicExpression */
+			reduce(58), /* rest, reduce: BasicExpression */
+			reduce(58), /* eq, reduce: BasicExpression */
+			reduce(58), /* greater, reduce: BasicExpression */
+			reduce(58), /* lesser, reduce: BasicExpression */
+			reduce(58), /* greaterOrEq, reduce: BasicExpression */
+			reduce(58), /* lesserOrEq, reduce: BasicExpression */
+			reduce(58), /* different, reduce: BasicExpression */
+			reduce(58), /* or, reduce: BasicExpression */
+			reduce(58), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S91
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(59), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(59), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(59), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(59), /* plus, reduce: BasicExpression */
+			reduce(59), /* product, reduce: BasicExpression */
+			reduce(59), /* division, reduce: BasicExpression */
+			reduce(59), /* rest, reduce: BasicExpression */
+			reduce(59), /* eq, reduce: BasicExpression */
+			reduce(59), /* greater, reduce: BasicExpression */
+			reduce(59), /* lesser, reduce: BasicExpression */
+			reduce(59), /* greaterOrEq, reduce: BasicExpression */
+			reduce(59), /* lesserOrEq, reduce: BasicExpression */
+			reduce(59), /* different, reduce: BasicExpression */
+			reduce(59), /* or, reduce: BasicExpression */
+			reduce(59), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S92
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(60), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(60), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(60), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(60), /* plus, reduce: BasicExpression */
+			reduce(60), /* product, reduce: BasicExpression */
+			reduce(60), /* division, reduce: BasicExpression */
+			reduce(60), /* rest, reduce: BasicExpression */
+			reduce(60), /* eq, reduce: BasicExpression */
+			reduce(60), /* greater, reduce: BasicExpression */
+			reduce(60), /* lesser, reduce: BasicExpression */
+			reduce(60), /* greaterOrEq, reduce: BasicExpression */
+			reduce(60), /* lesserOrEq, reduce: BasicExpression */
+			reduce(60), /* different, reduce: BasicExpression */
+			reduce(60), /* or, reduce: BasicExpression */
+			reduce(60), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S93
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			shift(147), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S94
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -2395,7 +4249,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			reduce(20), /* var, reduce: Block */
 			nil,        /* minus */
-			nil,        /* endline */
+			reduce(20), /* endline, reduce: Block */
 			reduce(20), /* identifier, reduce: Block */
 			nil,        /* comma */
 			nil,        /* float */
@@ -2411,55 +4265,28 @@ var actionTab = actionTable{
 			reduce(20), /* prnt, reduce: Block */
 			reduce(20), /* return, reduce: Block */
 			reduce(20), /* while, reduce: Block */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(20), /* if, reduce: Block */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S67
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			shift(77), /* minus */
-			nil,       /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S68
+	actionRow{ // S95
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -2469,114 +4296,51 @@ var actionTab = actionTable{
 			nil,        /* minus */
 			nil,        /* endline */
 			nil,        /* identifier */
-			shift(78),  /* comma */
+			nil,        /* comma */
 			nil,        /* float */
 			nil,        /* int */
 			nil,        /* char */
 			nil,        /* void */
 			nil,        /* proc */
 			nil,        /* lbracket */
-			reduce(34), /* rbracket, reduce: Expressions */
+			shift(148), /* rbracket */
 			nil,        /* lbrace */
 			nil,        /* rbrace */
 			nil,        /* assign */
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S69
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			shift(79), /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S70
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(80), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S71
+	actionRow{ // S96
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
 			nil,        /* $ */
 			nil,        /* empty */
-			reduce(31), /* var, reduce: Return */
-			nil,        /* minus */
-			nil,        /* endline */
-			reduce(31), /* identifier, reduce: Return */
+			nil,        /* var */
+			reduce(55), /* minus, reduce: BasicExpression */
+			reduce(55), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
 			nil,        /* comma */
 			nil,        /* float */
 			nil,        /* int */
@@ -2585,97 +4349,1339 @@ var actionTab = actionTable{
 			nil,        /* proc */
 			nil,        /* lbracket */
 			nil,        /* rbracket */
-			reduce(31), /* lbrace, reduce: Return */
-			reduce(31), /* rbrace, reduce: Return */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
 			nil,        /* assign */
-			reduce(31), /* prnt, reduce: Return */
-			reduce(31), /* return, reduce: Return */
-			reduce(31), /* while, reduce: Return */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
 			nil,        /* if */
-			nil,        /* int_literal */
+			nil,        /* else */
+			reduce(55), /* plus, reduce: BasicExpression */
+			reduce(55), /* product, reduce: BasicExpression */
+			reduce(55), /* division, reduce: BasicExpression */
+			reduce(55), /* rest, reduce: BasicExpression */
+			reduce(55), /* eq, reduce: BasicExpression */
+			reduce(55), /* greater, reduce: BasicExpression */
+			reduce(55), /* lesser, reduce: BasicExpression */
+			reduce(55), /* greaterOrEq, reduce: BasicExpression */
+			reduce(55), /* lesserOrEq, reduce: BasicExpression */
+			reduce(55), /* different, reduce: BasicExpression */
+			reduce(55), /* or, reduce: BasicExpression */
+			reduce(55), /* and, reduce: BasicExpression */
 			nil,        /* not */
-			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S72
+	actionRow{ // S97
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			shift(81), /* minus */
-			nil,       /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
 		},
 	},
-	actionRow{ // S73
+	actionRow{ // S98
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			shift(82), /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
 		},
 	},
-	actionRow{ // S74
+	actionRow{ // S99
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(61), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(151), /* lbracket */
+			reduce(61), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(61), /* plus, reduce: BasicExpression */
+			reduce(61), /* product, reduce: BasicExpression */
+			reduce(61), /* division, reduce: BasicExpression */
+			reduce(61), /* rest, reduce: BasicExpression */
+			reduce(61), /* eq, reduce: BasicExpression */
+			reduce(61), /* greater, reduce: BasicExpression */
+			reduce(61), /* lesser, reduce: BasicExpression */
+			reduce(61), /* greaterOrEq, reduce: BasicExpression */
+			reduce(61), /* lesserOrEq, reduce: BasicExpression */
+			reduce(61), /* different, reduce: BasicExpression */
+			reduce(61), /* or, reduce: BasicExpression */
+			reduce(61), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S100
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S101
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(154), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S102
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(62), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(62), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(62), /* plus, reduce: BasicExpression */
+			reduce(62), /* product, reduce: BasicExpression */
+			reduce(62), /* division, reduce: BasicExpression */
+			reduce(62), /* rest, reduce: BasicExpression */
+			reduce(62), /* eq, reduce: BasicExpression */
+			reduce(62), /* greater, reduce: BasicExpression */
+			reduce(62), /* lesser, reduce: BasicExpression */
+			reduce(62), /* greaterOrEq, reduce: BasicExpression */
+			reduce(62), /* lesserOrEq, reduce: BasicExpression */
+			reduce(62), /* different, reduce: BasicExpression */
+			reduce(62), /* or, reduce: BasicExpression */
+			reduce(62), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S103
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(53), /* minus, reduce: Expression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(53), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(53), /* plus, reduce: Expression */
+			reduce(53), /* product, reduce: Expression */
+			reduce(53), /* division, reduce: Expression */
+			reduce(53), /* rest, reduce: Expression */
+			reduce(53), /* eq, reduce: Expression */
+			reduce(53), /* greater, reduce: Expression */
+			reduce(53), /* lesser, reduce: Expression */
+			reduce(53), /* greaterOrEq, reduce: Expression */
+			reduce(53), /* lesserOrEq, reduce: Expression */
+			reduce(53), /* different, reduce: Expression */
+			reduce(53), /* or, reduce: Expression */
+			reduce(53), /* and, reduce: Expression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S104
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S105
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(57), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(57), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(57), /* plus, reduce: BasicExpression */
+			reduce(57), /* product, reduce: BasicExpression */
+			reduce(57), /* division, reduce: BasicExpression */
+			reduce(57), /* rest, reduce: BasicExpression */
+			reduce(57), /* eq, reduce: BasicExpression */
+			reduce(57), /* greater, reduce: BasicExpression */
+			reduce(57), /* lesser, reduce: BasicExpression */
+			reduce(57), /* greaterOrEq, reduce: BasicExpression */
+			reduce(57), /* lesserOrEq, reduce: BasicExpression */
+			reduce(57), /* different, reduce: BasicExpression */
+			reduce(57), /* or, reduce: BasicExpression */
+			reduce(57), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S106
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(58), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(58), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(58), /* plus, reduce: BasicExpression */
+			reduce(58), /* product, reduce: BasicExpression */
+			reduce(58), /* division, reduce: BasicExpression */
+			reduce(58), /* rest, reduce: BasicExpression */
+			reduce(58), /* eq, reduce: BasicExpression */
+			reduce(58), /* greater, reduce: BasicExpression */
+			reduce(58), /* lesser, reduce: BasicExpression */
+			reduce(58), /* greaterOrEq, reduce: BasicExpression */
+			reduce(58), /* lesserOrEq, reduce: BasicExpression */
+			reduce(58), /* different, reduce: BasicExpression */
+			reduce(58), /* or, reduce: BasicExpression */
+			reduce(58), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S107
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(59), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(59), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(59), /* plus, reduce: BasicExpression */
+			reduce(59), /* product, reduce: BasicExpression */
+			reduce(59), /* division, reduce: BasicExpression */
+			reduce(59), /* rest, reduce: BasicExpression */
+			reduce(59), /* eq, reduce: BasicExpression */
+			reduce(59), /* greater, reduce: BasicExpression */
+			reduce(59), /* lesser, reduce: BasicExpression */
+			reduce(59), /* greaterOrEq, reduce: BasicExpression */
+			reduce(59), /* lesserOrEq, reduce: BasicExpression */
+			reduce(59), /* different, reduce: BasicExpression */
+			reduce(59), /* or, reduce: BasicExpression */
+			reduce(59), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S108
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(60), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(60), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(60), /* plus, reduce: BasicExpression */
+			reduce(60), /* product, reduce: BasicExpression */
+			reduce(60), /* division, reduce: BasicExpression */
+			reduce(60), /* rest, reduce: BasicExpression */
+			reduce(60), /* eq, reduce: BasicExpression */
+			reduce(60), /* greater, reduce: BasicExpression */
+			reduce(60), /* lesser, reduce: BasicExpression */
+			reduce(60), /* greaterOrEq, reduce: BasicExpression */
+			reduce(60), /* lesserOrEq, reduce: BasicExpression */
+			reduce(60), /* different, reduce: BasicExpression */
+			reduce(60), /* or, reduce: BasicExpression */
+			reduce(60), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S109
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S110
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(33), /* var, reduce: Return */
+			nil,        /* minus */
+			reduce(33), /* endline, reduce: Return */
+			reduce(33), /* identifier, reduce: Return */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(33), /* lbrace, reduce: Return */
+			reduce(33), /* rbrace, reduce: Return */
+			nil,        /* assign */
+			reduce(33), /* prnt, reduce: Return */
+			reduce(33), /* return, reduce: Return */
+			reduce(33), /* while, reduce: Return */
+			reduce(33), /* if, reduce: Return */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S111
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S112
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S113
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S114
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S115
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S116
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S117
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S118
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S119
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S120
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S121
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S122
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S123
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(56), /* minus, reduce: BasicExpression */
+			reduce(56), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(56), /* plus, reduce: BasicExpression */
+			reduce(56), /* product, reduce: BasicExpression */
+			reduce(56), /* division, reduce: BasicExpression */
+			reduce(56), /* rest, reduce: BasicExpression */
+			reduce(56), /* eq, reduce: BasicExpression */
+			reduce(56), /* greater, reduce: BasicExpression */
+			reduce(56), /* lesser, reduce: BasicExpression */
+			reduce(56), /* greaterOrEq, reduce: BasicExpression */
+			reduce(56), /* lesserOrEq, reduce: BasicExpression */
+			reduce(56), /* different, reduce: BasicExpression */
+			reduce(56), /* or, reduce: BasicExpression */
+			reduce(56), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S124
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(181), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S125
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(182), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S126
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -2699,199 +5705,28 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
-			nil,        /* or */
-			nil,        /* relacionalSymbol */
-			nil,        /* sn_literal */
-		},
-	},
-	actionRow{ // S75
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			shift(83), /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S76
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,        /* INVALID */
-			nil,        /* $ */
-			nil,        /* empty */
-			reduce(29), /* var, reduce: Assign */
-			nil,        /* minus */
-			nil,        /* endline */
-			reduce(29), /* identifier, reduce: Assign */
-			nil,        /* comma */
-			nil,        /* float */
-			nil,        /* int */
-			nil,        /* char */
-			nil,        /* void */
-			nil,        /* proc */
-			nil,        /* lbracket */
-			nil,        /* rbracket */
-			reduce(29), /* lbrace, reduce: Assign */
-			reduce(29), /* rbrace, reduce: Assign */
-			nil,        /* assign */
-			reduce(29), /* prnt, reduce: Assign */
-			reduce(29), /* return, reduce: Assign */
-			reduce(29), /* while, reduce: Assign */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S77
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(84), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S78
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(72), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S79
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			shift(86), /* endline */
-			nil,       /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
-		},
-	},
-	actionRow{ // S80
+	actionRow{ // S127
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -2899,7 +5734,7 @@ var actionTab = actionTable{
 			nil,        /* empty */
 			nil,        /* var */
 			nil,        /* minus */
-			reduce(33), /* endline, reduce: Expression */
+			shift(183), /* endline */
 			nil,        /* identifier */
 			nil,        /* comma */
 			nil,        /* float */
@@ -2915,91 +5750,2503 @@ var actionTab = actionTable{
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S81
+	actionRow{ // S128
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			nil,       /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(87), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			nil,       /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			nil,       /* prnt */
-			nil,       /* return */
-			nil,       /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(55), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(55), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(55), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(55), /* plus, reduce: BasicExpression */
+			reduce(55), /* product, reduce: BasicExpression */
+			reduce(55), /* division, reduce: BasicExpression */
+			reduce(55), /* rest, reduce: BasicExpression */
+			reduce(55), /* eq, reduce: BasicExpression */
+			reduce(55), /* greater, reduce: BasicExpression */
+			reduce(55), /* lesser, reduce: BasicExpression */
+			reduce(55), /* greaterOrEq, reduce: BasicExpression */
+			reduce(55), /* lesserOrEq, reduce: BasicExpression */
+			reduce(55), /* different, reduce: BasicExpression */
+			reduce(55), /* or, reduce: BasicExpression */
+			reduce(55), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S82
+	actionRow{ // S129
 		canRecover: false,
 		actions: [numSymbols]action{
-			nil,       /* INVALID */
-			nil,       /* $ */
-			nil,       /* empty */
-			shift(37), /* var */
-			nil,       /* minus */
-			nil,       /* endline */
-			shift(38), /* identifier */
-			nil,       /* comma */
-			nil,       /* float */
-			nil,       /* int */
-			nil,       /* char */
-			nil,       /* void */
-			nil,       /* proc */
-			nil,       /* lbracket */
-			nil,       /* rbracket */
-			shift(40), /* lbrace */
-			nil,       /* rbrace */
-			nil,       /* assign */
-			shift(47), /* prnt */
-			shift(48), /* return */
-			shift(49), /* while */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
-			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
-			nil,       /* or */
-			nil,       /* relacionalSymbol */
-			nil,       /* sn_literal */
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
 		},
 	},
-	actionRow{ // S83
+	actionRow{ // S130
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(185), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S131
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S132
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S133
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S134
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S135
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S136
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S137
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S138
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S139
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S140
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S141
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S142
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S143
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S144
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S145
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(200), /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S146
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(56), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(56), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(56), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(56), /* plus, reduce: BasicExpression */
+			reduce(56), /* product, reduce: BasicExpression */
+			reduce(56), /* division, reduce: BasicExpression */
+			reduce(56), /* rest, reduce: BasicExpression */
+			reduce(56), /* eq, reduce: BasicExpression */
+			reduce(56), /* greater, reduce: BasicExpression */
+			reduce(56), /* lesser, reduce: BasicExpression */
+			reduce(56), /* greaterOrEq, reduce: BasicExpression */
+			reduce(56), /* lesserOrEq, reduce: BasicExpression */
+			reduce(56), /* different, reduce: BasicExpression */
+			reduce(56), /* or, reduce: BasicExpression */
+			reduce(56), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S147
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(31), /* var, reduce: Assign */
+			nil,        /* minus */
+			reduce(31), /* endline, reduce: Assign */
+			reduce(31), /* identifier, reduce: Assign */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(31), /* lbrace, reduce: Assign */
+			reduce(31), /* rbrace, reduce: Assign */
+			nil,        /* assign */
+			reduce(31), /* prnt, reduce: Assign */
+			reduce(31), /* return, reduce: Assign */
+			reduce(31), /* while, reduce: Assign */
+			reduce(31), /* if, reduce: Assign */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S148
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			shift(202), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S149
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(203), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S150
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(55), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(55), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(55), /* plus, reduce: BasicExpression */
+			reduce(55), /* product, reduce: BasicExpression */
+			reduce(55), /* division, reduce: BasicExpression */
+			reduce(55), /* rest, reduce: BasicExpression */
+			reduce(55), /* eq, reduce: BasicExpression */
+			reduce(55), /* greater, reduce: BasicExpression */
+			reduce(55), /* lesser, reduce: BasicExpression */
+			reduce(55), /* greaterOrEq, reduce: BasicExpression */
+			reduce(55), /* lesserOrEq, reduce: BasicExpression */
+			reduce(55), /* different, reduce: BasicExpression */
+			reduce(55), /* or, reduce: BasicExpression */
+			reduce(55), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S151
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S152
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(205), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S153
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S154
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(54), /* minus, reduce: BasicExpression */
+			reduce(54), /* endline, reduce: BasicExpression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(54), /* plus, reduce: BasicExpression */
+			reduce(54), /* product, reduce: BasicExpression */
+			reduce(54), /* division, reduce: BasicExpression */
+			reduce(54), /* rest, reduce: BasicExpression */
+			reduce(54), /* eq, reduce: BasicExpression */
+			reduce(54), /* greater, reduce: BasicExpression */
+			reduce(54), /* lesser, reduce: BasicExpression */
+			reduce(54), /* greaterOrEq, reduce: BasicExpression */
+			reduce(54), /* lesserOrEq, reduce: BasicExpression */
+			reduce(54), /* different, reduce: BasicExpression */
+			reduce(54), /* or, reduce: BasicExpression */
+			reduce(54), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S155
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S156
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S157
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S158
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S159
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S160
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S161
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S162
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S163
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S164
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S165
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S166
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S167
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(56), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(56), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(56), /* plus, reduce: BasicExpression */
+			reduce(56), /* product, reduce: BasicExpression */
+			reduce(56), /* division, reduce: BasicExpression */
+			reduce(56), /* rest, reduce: BasicExpression */
+			reduce(56), /* eq, reduce: BasicExpression */
+			reduce(56), /* greater, reduce: BasicExpression */
+			reduce(56), /* lesser, reduce: BasicExpression */
+			reduce(56), /* greaterOrEq, reduce: BasicExpression */
+			reduce(56), /* lesserOrEq, reduce: BasicExpression */
+			reduce(56), /* different, reduce: BasicExpression */
+			reduce(56), /* or, reduce: BasicExpression */
+			reduce(56), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S168
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(40), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S169
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(41), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S170
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(42), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S171
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(43), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S172
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(44), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S173
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(45), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S174
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(46), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S175
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(47), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S176
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(48), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S177
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(49), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S178
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(50), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S179
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(51), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S180
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			reduce(52), /* endline, reduce: Expression */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S181
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(37),  /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(38),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(40),  /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			shift(49),  /* prnt */
+			shift(50),  /* return */
+			shift(51),  /* while */
+			shift(52),  /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S182
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(221), /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(222), /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(224), /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			shift(232), /* prnt */
+			shift(233), /* return */
+			shift(234), /* while */
+			shift(235), /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S183
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,       /* INVALID */
@@ -3007,7 +8254,7 @@ var actionTab = actionTable{
 			nil,       /* empty */
 			reduce(4), /* var, reduce: Variable */
 			nil,       /* minus */
-			nil,       /* endline */
+			reduce(4), /* endline, reduce: Variable */
 			reduce(4), /* identifier, reduce: Variable */
 			nil,       /* comma */
 			nil,       /* float */
@@ -3023,55 +8270,28 @@ var actionTab = actionTable{
 			reduce(4), /* prnt, reduce: Variable */
 			reduce(4), /* return, reduce: Variable */
 			reduce(4), /* while, reduce: Variable */
-			nil,       /* arithmeticSymbol */
-			nil,       /* char_literal */
+			reduce(4), /* if, reduce: Variable */
 			nil,       /* else */
-			nil,       /* fp_literal */
-			nil,       /* if */
-			nil,       /* int_literal */
-			nil,       /* not */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
 			nil,       /* or */
-			nil,       /* relacionalSymbol */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
 			nil,       /* sn_literal */
+			nil,       /* char_literal */
 		},
 	},
-	actionRow{ // S84
-		canRecover: false,
-		actions: [numSymbols]action{
-			nil,        /* INVALID */
-			nil,        /* $ */
-			nil,        /* empty */
-			nil,        /* var */
-			nil,        /* minus */
-			nil,        /* endline */
-			nil,        /* identifier */
-			reduce(33), /* comma, reduce: Expression */
-			nil,        /* float */
-			nil,        /* int */
-			nil,        /* char */
-			nil,        /* void */
-			nil,        /* proc */
-			nil,        /* lbracket */
-			reduce(33), /* rbracket, reduce: Expression */
-			nil,        /* lbrace */
-			nil,        /* rbrace */
-			nil,        /* assign */
-			nil,        /* prnt */
-			nil,        /* return */
-			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
-			nil,        /* or */
-			nil,        /* relacionalSymbol */
-			nil,        /* sn_literal */
-		},
-	},
-	actionRow{ // S85
+	actionRow{ // S184
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -3088,35 +8308,764 @@ var actionTab = actionTable{
 			nil,        /* void */
 			nil,        /* proc */
 			nil,        /* lbracket */
-			reduce(35), /* rbracket, reduce: Expressions */
+			shift(237), /* rbracket */
 			nil,        /* lbrace */
 			nil,        /* rbrace */
 			nil,        /* assign */
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S86
+	actionRow{ // S185
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
 			nil,        /* $ */
 			nil,        /* empty */
-			reduce(30), /* var, reduce: Print */
+			nil,        /* var */
+			reduce(54), /* minus, reduce: BasicExpression */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(54), /* comma, reduce: BasicExpression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(54), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(54), /* plus, reduce: BasicExpression */
+			reduce(54), /* product, reduce: BasicExpression */
+			reduce(54), /* division, reduce: BasicExpression */
+			reduce(54), /* rest, reduce: BasicExpression */
+			reduce(54), /* eq, reduce: BasicExpression */
+			reduce(54), /* greater, reduce: BasicExpression */
+			reduce(54), /* lesser, reduce: BasicExpression */
+			reduce(54), /* greaterOrEq, reduce: BasicExpression */
+			reduce(54), /* lesserOrEq, reduce: BasicExpression */
+			reduce(54), /* different, reduce: BasicExpression */
+			reduce(54), /* or, reduce: BasicExpression */
+			reduce(54), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S186
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(40), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(40), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S187
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
 			nil,        /* minus */
 			nil,        /* endline */
-			reduce(30), /* identifier, reduce: Print */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(64), /* rbracket, reduce: Expressions */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S188
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(41), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(41), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S189
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(42), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(42), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S190
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(43), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(43), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S191
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(44), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(44), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S192
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(45), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(45), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S193
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(46), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(46), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S194
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(47), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(47), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S195
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(48), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(48), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S196
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(49), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(49), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S197
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(50), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(50), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S198
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(51), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(51), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S199
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(131), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(52), /* comma, reduce: Expression */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(52), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(133), /* plus */
+			shift(134), /* product */
+			shift(135), /* division */
+			shift(136), /* rest */
+			shift(137), /* eq */
+			shift(138), /* greater */
+			shift(139), /* lesser */
+			shift(140), /* greaterOrEq */
+			shift(141), /* lesserOrEq */
+			shift(142), /* different */
+			shift(143), /* or */
+			shift(144), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S200
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,       /* INVALID */
+			nil,       /* $ */
+			nil,       /* empty */
+			nil,       /* var */
+			nil,       /* minus */
+			nil,       /* endline */
+			nil,       /* identifier */
+			nil,       /* comma */
+			nil,       /* float */
+			nil,       /* int */
+			nil,       /* char */
+			nil,       /* void */
+			nil,       /* proc */
+			shift(61), /* lbracket */
+			nil,       /* rbracket */
+			nil,       /* lbrace */
+			nil,       /* rbrace */
+			nil,       /* assign */
+			nil,       /* prnt */
+			nil,       /* return */
+			nil,       /* while */
+			nil,       /* if */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
+			nil,       /* or */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
+			nil,       /* sn_literal */
+			nil,       /* char_literal */
+		},
+	},
+	actionRow{ // S201
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			reduce(38), /* endline, reduce: FuncCall */
+			nil,        /* identifier */
 			nil,        /* comma */
 			nil,        /* float */
 			nil,        /* int */
@@ -3125,25 +9074,124 @@ var actionTab = actionTable{
 			nil,        /* proc */
 			nil,        /* lbracket */
 			nil,        /* rbracket */
-			reduce(30), /* lbrace, reduce: Print */
-			reduce(30), /* rbrace, reduce: Print */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
 			nil,        /* assign */
-			reduce(30), /* prnt, reduce: Print */
-			reduce(30), /* return, reduce: Print */
-			reduce(30), /* while, reduce: Print */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S87
+	actionRow{ // S202
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(32), /* var, reduce: Print */
+			nil,        /* minus */
+			reduce(32), /* endline, reduce: Print */
+			reduce(32), /* identifier, reduce: Print */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(32), /* lbrace, reduce: Print */
+			reduce(32), /* rbrace, reduce: Print */
+			nil,        /* assign */
+			reduce(32), /* prnt, reduce: Print */
+			reduce(32), /* return, reduce: Print */
+			reduce(32), /* while, reduce: Print */
+			reduce(32), /* if, reduce: Print */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S203
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(39), /* minus, reduce: FuncCall */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(238), /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S204
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
@@ -3160,35 +9208,674 @@ var actionTab = actionTable{
 			nil,        /* void */
 			nil,        /* proc */
 			nil,        /* lbracket */
-			reduce(33), /* rbracket, reduce: Expression */
+			shift(240), /* rbracket */
 			nil,        /* lbrace */
 			nil,        /* rbrace */
 			nil,        /* assign */
 			nil,        /* prnt */
 			nil,        /* return */
 			nil,        /* while */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
-			nil,        /* else */
-			nil,        /* fp_literal */
 			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
-	actionRow{ // S88
+	actionRow{ // S205
 		canRecover: false,
 		actions: [numSymbols]action{
 			nil,        /* INVALID */
 			nil,        /* $ */
 			nil,        /* empty */
-			reduce(32), /* var, reduce: WhileBlock */
-			nil,        /* minus */
+			nil,        /* var */
+			reduce(54), /* minus, reduce: BasicExpression */
 			nil,        /* endline */
-			reduce(32), /* identifier, reduce: WhileBlock */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(54), /* rbracket, reduce: BasicExpression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(54), /* plus, reduce: BasicExpression */
+			reduce(54), /* product, reduce: BasicExpression */
+			reduce(54), /* division, reduce: BasicExpression */
+			reduce(54), /* rest, reduce: BasicExpression */
+			reduce(54), /* eq, reduce: BasicExpression */
+			reduce(54), /* greater, reduce: BasicExpression */
+			reduce(54), /* lesser, reduce: BasicExpression */
+			reduce(54), /* greaterOrEq, reduce: BasicExpression */
+			reduce(54), /* lesserOrEq, reduce: BasicExpression */
+			reduce(54), /* different, reduce: BasicExpression */
+			reduce(54), /* or, reduce: BasicExpression */
+			reduce(54), /* and, reduce: BasicExpression */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S206
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(40), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S207
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(41), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S208
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(42), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S209
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(43), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S210
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(44), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S211
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(45), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S212
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(46), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S213
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(47), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S214
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(48), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S215
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(49), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S216
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(50), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S217
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(51), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S218
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(52), /* rbracket, reduce: Expression */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S219
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(34), /* var, reduce: WhileBlock */
+			nil,        /* minus */
+			reduce(34), /* endline, reduce: WhileBlock */
+			reduce(34), /* identifier, reduce: WhileBlock */
 			nil,        /* comma */
 			nil,        /* float */
 			nil,        /* int */
@@ -3197,22 +9884,2416 @@ var actionTab = actionTable{
 			nil,        /* proc */
 			nil,        /* lbracket */
 			nil,        /* rbracket */
-			reduce(32), /* lbrace, reduce: WhileBlock */
-			reduce(32), /* rbrace, reduce: WhileBlock */
+			reduce(34), /* lbrace, reduce: WhileBlock */
+			reduce(34), /* rbrace, reduce: WhileBlock */
 			nil,        /* assign */
-			reduce(32), /* prnt, reduce: WhileBlock */
-			reduce(32), /* return, reduce: WhileBlock */
-			reduce(32), /* while, reduce: WhileBlock */
-			nil,        /* arithmeticSymbol */
-			nil,        /* char_literal */
+			reduce(34), /* prnt, reduce: WhileBlock */
+			reduce(34), /* return, reduce: WhileBlock */
+			reduce(34), /* while, reduce: WhileBlock */
+			reduce(34), /* if, reduce: WhileBlock */
 			nil,        /* else */
-			nil,        /* fp_literal */
-			nil,        /* if */
-			nil,        /* int_literal */
-			nil,        /* not */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
 			nil,        /* or */
-			nil,        /* relacionalSymbol */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
 			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S220
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(23), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(23), /* endline, reduce: Command */
+			reduce(23), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(23), /* lbrace, reduce: Command */
+			reduce(23), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(23), /* prnt, reduce: Command */
+			reduce(23), /* return, reduce: Command */
+			reduce(23), /* while, reduce: Command */
+			reduce(23), /* if, reduce: Command */
+			reduce(23), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S221
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,      /* INVALID */
+			nil,      /* $ */
+			nil,      /* empty */
+			nil,      /* var */
+			nil,      /* minus */
+			nil,      /* endline */
+			shift(9), /* identifier */
+			nil,      /* comma */
+			nil,      /* float */
+			nil,      /* int */
+			nil,      /* char */
+			nil,      /* void */
+			nil,      /* proc */
+			nil,      /* lbracket */
+			nil,      /* rbracket */
+			nil,      /* lbrace */
+			nil,      /* rbrace */
+			nil,      /* assign */
+			nil,      /* prnt */
+			nil,      /* return */
+			nil,      /* while */
+			nil,      /* if */
+			nil,      /* else */
+			nil,      /* plus */
+			nil,      /* product */
+			nil,      /* division */
+			nil,      /* rest */
+			nil,      /* eq */
+			nil,      /* greater */
+			nil,      /* lesser */
+			nil,      /* greaterOrEq */
+			nil,      /* lesserOrEq */
+			nil,      /* different */
+			nil,      /* or */
+			nil,      /* and */
+			nil,      /* not */
+			nil,      /* int_literal */
+			nil,      /* fp_literal */
+			nil,      /* sn_literal */
+			nil,      /* char_literal */
+		},
+	},
+	actionRow{ // S222
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(61),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			shift(242), /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S223
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(30), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(30), /* endline, reduce: Command */
+			reduce(30), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(30), /* lbrace, reduce: Command */
+			reduce(30), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(30), /* prnt, reduce: Command */
+			reduce(30), /* return, reduce: Command */
+			reduce(30), /* while, reduce: Command */
+			reduce(30), /* if, reduce: Command */
+			reduce(30), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S224
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(22), /* var, reduce: Commands */
+			nil,        /* minus */
+			reduce(22), /* endline, reduce: Commands */
+			reduce(22), /* identifier, reduce: Commands */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(22), /* lbrace, reduce: Commands */
+			reduce(22), /* rbrace, reduce: Commands */
+			nil,        /* assign */
+			reduce(22), /* prnt, reduce: Commands */
+			reduce(22), /* return, reduce: Commands */
+			reduce(22), /* while, reduce: Commands */
+			reduce(22), /* if, reduce: Commands */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S225
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(35), /* var, reduce: IfBlock */
+			nil,        /* minus */
+			reduce(35), /* endline, reduce: IfBlock */
+			reduce(35), /* identifier, reduce: IfBlock */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(35), /* lbrace, reduce: IfBlock */
+			reduce(35), /* rbrace, reduce: IfBlock */
+			nil,        /* assign */
+			reduce(35), /* prnt, reduce: IfBlock */
+			reduce(35), /* return, reduce: IfBlock */
+			reduce(35), /* while, reduce: IfBlock */
+			reduce(35), /* if, reduce: IfBlock */
+			shift(244), /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S226
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(24), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(24), /* endline, reduce: Command */
+			reduce(24), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(24), /* lbrace, reduce: Command */
+			reduce(24), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(24), /* prnt, reduce: Command */
+			reduce(24), /* return, reduce: Command */
+			reduce(24), /* while, reduce: Command */
+			reduce(24), /* if, reduce: Command */
+			reduce(24), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S227
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(25), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(25), /* endline, reduce: Command */
+			reduce(25), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(25), /* lbrace, reduce: Command */
+			reduce(25), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(25), /* prnt, reduce: Command */
+			reduce(25), /* return, reduce: Command */
+			reduce(25), /* while, reduce: Command */
+			reduce(25), /* if, reduce: Command */
+			reduce(25), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S228
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(26), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(26), /* endline, reduce: Command */
+			reduce(26), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(26), /* lbrace, reduce: Command */
+			reduce(26), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(26), /* prnt, reduce: Command */
+			reduce(26), /* return, reduce: Command */
+			reduce(26), /* while, reduce: Command */
+			reduce(26), /* if, reduce: Command */
+			reduce(26), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S229
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(27), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(27), /* endline, reduce: Command */
+			reduce(27), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(27), /* lbrace, reduce: Command */
+			reduce(27), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(27), /* prnt, reduce: Command */
+			reduce(27), /* return, reduce: Command */
+			reduce(27), /* while, reduce: Command */
+			reduce(27), /* if, reduce: Command */
+			reduce(27), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S230
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(28), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(28), /* endline, reduce: Command */
+			reduce(28), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(28), /* lbrace, reduce: Command */
+			reduce(28), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(28), /* prnt, reduce: Command */
+			reduce(28), /* return, reduce: Command */
+			reduce(28), /* while, reduce: Command */
+			reduce(28), /* if, reduce: Command */
+			reduce(28), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S231
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(29), /* var, reduce: Command */
+			nil,        /* minus */
+			reduce(29), /* endline, reduce: Command */
+			reduce(29), /* identifier, reduce: Command */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(29), /* lbrace, reduce: Command */
+			reduce(29), /* rbrace, reduce: Command */
+			nil,        /* assign */
+			reduce(29), /* prnt, reduce: Command */
+			reduce(29), /* return, reduce: Command */
+			reduce(29), /* while, reduce: Command */
+			reduce(29), /* if, reduce: Command */
+			reduce(29), /* else, reduce: Command */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S232
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(245), /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S233
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S234
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(247), /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S235
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(248), /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S236
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			shift(249), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S237
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(39), /* minus, reduce: FuncCall */
+			nil,        /* endline */
+			shift(250), /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S238
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,       /* INVALID */
+			nil,       /* $ */
+			nil,       /* empty */
+			nil,       /* var */
+			nil,       /* minus */
+			nil,       /* endline */
+			nil,       /* identifier */
+			nil,       /* comma */
+			nil,       /* float */
+			nil,       /* int */
+			nil,       /* char */
+			nil,       /* void */
+			nil,       /* proc */
+			shift(97), /* lbracket */
+			nil,       /* rbracket */
+			nil,       /* lbrace */
+			nil,       /* rbrace */
+			nil,       /* assign */
+			nil,       /* prnt */
+			nil,       /* return */
+			nil,       /* while */
+			nil,       /* if */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
+			nil,       /* or */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
+			nil,       /* sn_literal */
+			nil,       /* char_literal */
+		},
+	},
+	actionRow{ // S239
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(38), /* minus, reduce: FuncCall */
+			reduce(38), /* endline, reduce: FuncCall */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(38), /* plus, reduce: FuncCall */
+			reduce(38), /* product, reduce: FuncCall */
+			reduce(38), /* division, reduce: FuncCall */
+			reduce(38), /* rest, reduce: FuncCall */
+			reduce(38), /* eq, reduce: FuncCall */
+			reduce(38), /* greater, reduce: FuncCall */
+			reduce(38), /* lesser, reduce: FuncCall */
+			reduce(38), /* greaterOrEq, reduce: FuncCall */
+			reduce(38), /* lesserOrEq, reduce: FuncCall */
+			reduce(38), /* different, reduce: FuncCall */
+			reduce(38), /* or, reduce: FuncCall */
+			reduce(38), /* and, reduce: FuncCall */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S240
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(39), /* minus, reduce: FuncCall */
+			nil,        /* endline */
+			shift(252), /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S241
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(254), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S242
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(65),  /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(66),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(67),  /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(71),  /* not */
+			shift(72),  /* int_literal */
+			shift(73),  /* fp_literal */
+			shift(74),  /* sn_literal */
+			shift(75),  /* char_literal */
+		},
+	},
+	actionRow{ // S243
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(37),  /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(38),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(40),  /* lbrace */
+			shift(256), /* rbrace */
+			nil,        /* assign */
+			shift(49),  /* prnt */
+			shift(50),  /* return */
+			shift(51),  /* while */
+			shift(52),  /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S244
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(37),  /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(38),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(40),  /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			shift(49),  /* prnt */
+			shift(50),  /* return */
+			shift(51),  /* while */
+			shift(52),  /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S245
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(81),  /* minus */
+			nil,        /* endline */
+			shift(82),  /* identifier */
+			reduce(39), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(83),  /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(88),  /* not */
+			shift(89),  /* int_literal */
+			shift(90),  /* fp_literal */
+			shift(91),  /* sn_literal */
+			shift(92),  /* char_literal */
+		},
+	},
+	actionRow{ // S246
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			shift(259), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S247
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S248
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(98),  /* minus */
+			nil,        /* endline */
+			shift(99),  /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(100), /* lbracket */
+			reduce(39), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(39), /* plus, reduce: FuncCall */
+			reduce(39), /* product, reduce: FuncCall */
+			reduce(39), /* division, reduce: FuncCall */
+			reduce(39), /* rest, reduce: FuncCall */
+			reduce(39), /* eq, reduce: FuncCall */
+			reduce(39), /* greater, reduce: FuncCall */
+			reduce(39), /* lesser, reduce: FuncCall */
+			reduce(39), /* greaterOrEq, reduce: FuncCall */
+			reduce(39), /* lesserOrEq, reduce: FuncCall */
+			reduce(39), /* different, reduce: FuncCall */
+			reduce(39), /* or, reduce: FuncCall */
+			reduce(39), /* and, reduce: FuncCall */
+			shift(104), /* not */
+			shift(105), /* int_literal */
+			shift(106), /* fp_literal */
+			shift(107), /* sn_literal */
+			shift(108), /* char_literal */
+		},
+	},
+	actionRow{ // S249
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(37), /* var, reduce: FuncBlock */
+			nil,        /* minus */
+			reduce(37), /* endline, reduce: FuncBlock */
+			reduce(37), /* identifier, reduce: FuncBlock */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(37), /* lbrace, reduce: FuncBlock */
+			reduce(37), /* rbrace, reduce: FuncBlock */
+			nil,        /* assign */
+			reduce(37), /* prnt, reduce: FuncBlock */
+			reduce(37), /* return, reduce: FuncBlock */
+			reduce(37), /* while, reduce: FuncBlock */
+			reduce(37), /* if, reduce: FuncBlock */
+			reduce(37), /* else, reduce: FuncBlock */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S250
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(129), /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S251
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(38), /* minus, reduce: FuncCall */
+			nil,        /* endline */
+			nil,        /* identifier */
+			reduce(38), /* comma, reduce: FuncCall */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(38), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(38), /* plus, reduce: FuncCall */
+			reduce(38), /* product, reduce: FuncCall */
+			reduce(38), /* division, reduce: FuncCall */
+			reduce(38), /* rest, reduce: FuncCall */
+			reduce(38), /* eq, reduce: FuncCall */
+			reduce(38), /* greater, reduce: FuncCall */
+			reduce(38), /* lesser, reduce: FuncCall */
+			reduce(38), /* greaterOrEq, reduce: FuncCall */
+			reduce(38), /* lesserOrEq, reduce: FuncCall */
+			reduce(38), /* different, reduce: FuncCall */
+			reduce(38), /* or, reduce: FuncCall */
+			reduce(38), /* and, reduce: FuncCall */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S252
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			shift(151), /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S253
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			reduce(38), /* minus, reduce: FuncCall */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			reduce(38), /* rbracket, reduce: FuncCall */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			reduce(38), /* plus, reduce: FuncCall */
+			reduce(38), /* product, reduce: FuncCall */
+			reduce(38), /* division, reduce: FuncCall */
+			reduce(38), /* rest, reduce: FuncCall */
+			reduce(38), /* eq, reduce: FuncCall */
+			reduce(38), /* greater, reduce: FuncCall */
+			reduce(38), /* lesser, reduce: FuncCall */
+			reduce(38), /* greaterOrEq, reduce: FuncCall */
+			reduce(38), /* lesserOrEq, reduce: FuncCall */
+			reduce(38), /* different, reduce: FuncCall */
+			reduce(38), /* or, reduce: FuncCall */
+			reduce(38), /* and, reduce: FuncCall */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S254
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,       /* INVALID */
+			nil,       /* $ */
+			nil,       /* empty */
+			nil,       /* var */
+			nil,       /* minus */
+			nil,       /* endline */
+			nil,       /* identifier */
+			nil,       /* comma */
+			shift(19), /* float */
+			shift(20), /* int */
+			shift(21), /* char */
+			shift(22), /* void */
+			nil,       /* proc */
+			nil,       /* lbracket */
+			nil,       /* rbracket */
+			nil,       /* lbrace */
+			nil,       /* rbrace */
+			nil,       /* assign */
+			nil,       /* prnt */
+			nil,       /* return */
+			nil,       /* while */
+			nil,       /* if */
+			nil,       /* else */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
+			nil,       /* or */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
+			nil,       /* sn_literal */
+			nil,       /* char_literal */
+		},
+	},
+	actionRow{ // S255
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(109), /* minus */
+			shift(263), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(111), /* plus */
+			shift(112), /* product */
+			shift(113), /* division */
+			shift(114), /* rest */
+			shift(115), /* eq */
+			shift(116), /* greater */
+			shift(117), /* lesser */
+			shift(118), /* greaterOrEq */
+			shift(119), /* lesserOrEq */
+			shift(120), /* different */
+			shift(121), /* or */
+			shift(122), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S256
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(20), /* var, reduce: Block */
+			nil,        /* minus */
+			reduce(20), /* endline, reduce: Block */
+			reduce(20), /* identifier, reduce: Block */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(20), /* lbrace, reduce: Block */
+			reduce(20), /* rbrace, reduce: Block */
+			nil,        /* assign */
+			reduce(20), /* prnt, reduce: Block */
+			reduce(20), /* return, reduce: Block */
+			reduce(20), /* while, reduce: Block */
+			reduce(20), /* if, reduce: Block */
+			reduce(20), /* else, reduce: Block */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S257
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(36), /* var, reduce: IfBlock */
+			nil,        /* minus */
+			reduce(36), /* endline, reduce: IfBlock */
+			reduce(36), /* identifier, reduce: IfBlock */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(36), /* lbrace, reduce: IfBlock */
+			reduce(36), /* rbrace, reduce: IfBlock */
+			nil,        /* assign */
+			reduce(36), /* prnt, reduce: IfBlock */
+			reduce(36), /* return, reduce: IfBlock */
+			reduce(36), /* while, reduce: IfBlock */
+			reduce(36), /* if, reduce: IfBlock */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S258
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(264), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S259
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(33), /* var, reduce: Return */
+			nil,        /* minus */
+			reduce(33), /* endline, reduce: Return */
+			reduce(33), /* identifier, reduce: Return */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(33), /* lbrace, reduce: Return */
+			reduce(33), /* rbrace, reduce: Return */
+			nil,        /* assign */
+			reduce(33), /* prnt, reduce: Return */
+			reduce(33), /* return, reduce: Return */
+			reduce(33), /* while, reduce: Return */
+			reduce(33), /* if, reduce: Return */
+			reduce(33), /* else, reduce: Return */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S260
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(265), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S261
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			shift(153), /* minus */
+			nil,        /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			shift(266), /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			shift(155), /* plus */
+			shift(156), /* product */
+			shift(157), /* division */
+			shift(158), /* rest */
+			shift(159), /* eq */
+			shift(160), /* greater */
+			shift(161), /* lesser */
+			shift(162), /* greaterOrEq */
+			shift(163), /* lesserOrEq */
+			shift(164), /* different */
+			shift(165), /* or */
+			shift(166), /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S262
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			shift(267), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S263
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(31), /* var, reduce: Assign */
+			nil,        /* minus */
+			reduce(31), /* endline, reduce: Assign */
+			reduce(31), /* identifier, reduce: Assign */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(31), /* lbrace, reduce: Assign */
+			reduce(31), /* rbrace, reduce: Assign */
+			nil,        /* assign */
+			reduce(31), /* prnt, reduce: Assign */
+			reduce(31), /* return, reduce: Assign */
+			reduce(31), /* while, reduce: Assign */
+			reduce(31), /* if, reduce: Assign */
+			reduce(31), /* else, reduce: Assign */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S264
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			nil,        /* var */
+			nil,        /* minus */
+			shift(268), /* endline */
+			nil,        /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			nil,        /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			nil,        /* prnt */
+			nil,        /* return */
+			nil,        /* while */
+			nil,        /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S265
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(221), /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(222), /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(224), /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			shift(232), /* prnt */
+			shift(233), /* return */
+			shift(234), /* while */
+			shift(235), /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S266
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(221), /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(222), /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(224), /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			shift(232), /* prnt */
+			shift(233), /* return */
+			shift(234), /* while */
+			shift(235), /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S267
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,       /* INVALID */
+			nil,       /* $ */
+			nil,       /* empty */
+			reduce(4), /* var, reduce: Variable */
+			nil,       /* minus */
+			reduce(4), /* endline, reduce: Variable */
+			reduce(4), /* identifier, reduce: Variable */
+			nil,       /* comma */
+			nil,       /* float */
+			nil,       /* int */
+			nil,       /* char */
+			nil,       /* void */
+			nil,       /* proc */
+			nil,       /* lbracket */
+			nil,       /* rbracket */
+			reduce(4), /* lbrace, reduce: Variable */
+			reduce(4), /* rbrace, reduce: Variable */
+			nil,       /* assign */
+			reduce(4), /* prnt, reduce: Variable */
+			reduce(4), /* return, reduce: Variable */
+			reduce(4), /* while, reduce: Variable */
+			reduce(4), /* if, reduce: Variable */
+			reduce(4), /* else, reduce: Variable */
+			nil,       /* plus */
+			nil,       /* product */
+			nil,       /* division */
+			nil,       /* rest */
+			nil,       /* eq */
+			nil,       /* greater */
+			nil,       /* lesser */
+			nil,       /* greaterOrEq */
+			nil,       /* lesserOrEq */
+			nil,       /* different */
+			nil,       /* or */
+			nil,       /* and */
+			nil,       /* not */
+			nil,       /* int_literal */
+			nil,       /* fp_literal */
+			nil,       /* sn_literal */
+			nil,       /* char_literal */
+		},
+	},
+	actionRow{ // S268
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(32), /* var, reduce: Print */
+			nil,        /* minus */
+			reduce(32), /* endline, reduce: Print */
+			reduce(32), /* identifier, reduce: Print */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(32), /* lbrace, reduce: Print */
+			reduce(32), /* rbrace, reduce: Print */
+			nil,        /* assign */
+			reduce(32), /* prnt, reduce: Print */
+			reduce(32), /* return, reduce: Print */
+			reduce(32), /* while, reduce: Print */
+			reduce(32), /* if, reduce: Print */
+			reduce(32), /* else, reduce: Print */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S269
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(34), /* var, reduce: WhileBlock */
+			nil,        /* minus */
+			reduce(34), /* endline, reduce: WhileBlock */
+			reduce(34), /* identifier, reduce: WhileBlock */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(34), /* lbrace, reduce: WhileBlock */
+			reduce(34), /* rbrace, reduce: WhileBlock */
+			nil,        /* assign */
+			reduce(34), /* prnt, reduce: WhileBlock */
+			reduce(34), /* return, reduce: WhileBlock */
+			reduce(34), /* while, reduce: WhileBlock */
+			reduce(34), /* if, reduce: WhileBlock */
+			reduce(34), /* else, reduce: WhileBlock */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S270
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(35), /* var, reduce: IfBlock */
+			nil,        /* minus */
+			reduce(35), /* endline, reduce: IfBlock */
+			reduce(35), /* identifier, reduce: IfBlock */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(35), /* lbrace, reduce: IfBlock */
+			reduce(35), /* rbrace, reduce: IfBlock */
+			nil,        /* assign */
+			reduce(35), /* prnt, reduce: IfBlock */
+			reduce(35), /* return, reduce: IfBlock */
+			reduce(35), /* while, reduce: IfBlock */
+			reduce(35), /* if, reduce: IfBlock */
+			shift(271), /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S271
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			shift(221), /* var */
+			nil,        /* minus */
+			reduce(39), /* endline, reduce: FuncCall */
+			shift(222), /* identifier */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			shift(224), /* lbrace */
+			nil,        /* rbrace */
+			nil,        /* assign */
+			shift(232), /* prnt */
+			shift(233), /* return */
+			shift(234), /* while */
+			shift(235), /* if */
+			nil,        /* else */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
+		},
+	},
+	actionRow{ // S272
+		canRecover: false,
+		actions: [numSymbols]action{
+			nil,        /* INVALID */
+			nil,        /* $ */
+			nil,        /* empty */
+			reduce(36), /* var, reduce: IfBlock */
+			nil,        /* minus */
+			reduce(36), /* endline, reduce: IfBlock */
+			reduce(36), /* identifier, reduce: IfBlock */
+			nil,        /* comma */
+			nil,        /* float */
+			nil,        /* int */
+			nil,        /* char */
+			nil,        /* void */
+			nil,        /* proc */
+			nil,        /* lbracket */
+			nil,        /* rbracket */
+			reduce(36), /* lbrace, reduce: IfBlock */
+			reduce(36), /* rbrace, reduce: IfBlock */
+			nil,        /* assign */
+			reduce(36), /* prnt, reduce: IfBlock */
+			reduce(36), /* return, reduce: IfBlock */
+			reduce(36), /* while, reduce: IfBlock */
+			reduce(36), /* if, reduce: IfBlock */
+			reduce(36), /* else, reduce: IfBlock */
+			nil,        /* plus */
+			nil,        /* product */
+			nil,        /* division */
+			nil,        /* rest */
+			nil,        /* eq */
+			nil,        /* greater */
+			nil,        /* lesser */
+			nil,        /* greaterOrEq */
+			nil,        /* lesserOrEq */
+			nil,        /* different */
+			nil,        /* or */
+			nil,        /* and */
+			nil,        /* not */
+			nil,        /* int_literal */
+			nil,        /* fp_literal */
+			nil,        /* sn_literal */
+			nil,        /* char_literal */
 		},
 	},
 }

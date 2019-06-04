@@ -10,12 +10,23 @@ _digit : '0'-'9' ;
 _letter : 'A'-'Z' | 'a'-'z' | '_' ;
 _alpha: _digit | _letter;
 _floatPoints: {_digit} ',' {_digit}; 
-_minus: '-';
+
+/* Arithmetic Symbols */
+minus: '-';
+plus : '+';
+product : '*';
+division : '/';
+rest: '%';
+
+/* Relacional Symbols */
+eq: '=';
+greater: '>';
+lesser: '<';
+greaterOrEq: '>''=';
+lesserOrEq: '<''=';
+different: '<''>';
 
 /* symbols */
-relacionalSymbol : '<' | '>' | '<''=' | '>''=' | '='| '<''>';
-arithmeticSymbol: '+' |'*' | '/' | '%';
-minus: '-';
 assign: ':''=';
 comma: ',';
 endline: ';';
@@ -24,7 +35,7 @@ rbracket: ')';
 lbrace: '{';
 rbrace: '}';
 /* Types  Definition fp = float point, sn = scientific notation */
-int_literal: {_digit} |'-'{_digit};
+int_literal: {_digit};
 fp_literal: {_digit}  ',' {_digit};
 sn_literal: { _floatPoints } 'E' { _floatPoints } | {_digit} 'E' {_digit};
 char_literal : '\''( _alpha | '\\''n' | '\\''t' | ' ') '\'';
@@ -42,6 +53,7 @@ int: 'i''n''t';
 proc: 'p''r''o''c';
 var: 'v''a''r';
 or: 'o''r';
+and: 'a''n''d';
 not: 'n''o''t';
 
 /* Identifier */
@@ -99,6 +111,8 @@ Command
     | Return
     | Print
     | WhileBlock
+    | IfBlock
+    | FuncBlock
     | Block
     ;
 Assign
@@ -113,12 +127,47 @@ Return
 WhileBlock
     : while lbracket Expression rbracket Command
     ;
+IfBlock
+    : if lbracket Expression rbracket Command
+    | if lbracket Expression rbracket Command else Command 
+    ;
+FuncBlock
+    : FuncCall endline
+    ;
+FuncCall
+    : identifier lbracket Expressions rbracket FuncCall
+    | empty
+    ;
 Expression
-    : identifier minus identifier
+    : Expression minus Expression
+    | Expression plus Expression
+    | Expression product Expression
+    | Expression division Expression
+    | Expression rest Expression
+    | Expression eq Expression
+    | Expression greater Expression
+    | Expression lesser Expression
+    | Expression greaterOrEq Expression
+    | Expression lesserOrEq Expression
+    | Expression different Expression
+    | Expression or Expression
+    | Expression and Expression
+    | BasicExpression
+    ;
+BasicExpression
+    : lbracket Expression rbracket
+    | minus BasicExpression
+    | not BasicExpression
+    | int_literal
+    | fp_literal
+    | sn_literal
+    | char_literal
+    | identifier
+    | FuncCall
     ;
 Expressions
     : Expression 
-    | Expression comma Expression 
+    | Expression comma Expressions
     | empty
     ;
 

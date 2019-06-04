@@ -1,8 +1,0 @@
-var n, x - int; 
-proc main()eEva(){
-var x - int;
-var z - int;
-var x,z - int;
-z := x-x;
-prnt(x-x,x-y);
-}
