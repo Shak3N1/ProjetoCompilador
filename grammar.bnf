@@ -1,6 +1,7 @@
 /*Author: Guilherme Nascimento */
 
-/* Lexical Parser */
+/* Lexical Part */
+
 !whitespace : '\t' | '\n' | '\r' | ' ' ;
 !lineComment  : '*' '*' { . } '\n' ;
 !blockComment : '>' '>' { . | '*' } '<' '<' ;
@@ -9,10 +10,22 @@ _digit : '0'-'9' ;
 _letter : 'A'-'Z' | 'a'-'z' | '_' ;
 _alpha: _digit | _letter;
 _floatPoints: {_digit} ',' {_digit}; 
+_minus: '-';
 
-/* Types  Definition fp = float point, cn = scientific notation */
-int_literal: {_digit} | '-'{_digit};
-fp_literal: {_digit} ',' {_digit}; 
+/* symbols */
+relacionalSymbol : '<' | '>' | '<''=' | '>''=' | '='| '<''>';
+arithmeticSymbol: '+' |'*' | '/' | '%';
+minus: '-';
+assign: ':''=';
+comma: ',';
+endline: ';';
+lbracket: '(';
+rbracket: ')';
+lbrace: '{';
+rbrace: '}';
+/* Types  Definition fp = float point, sn = scientific notation */
+int_literal: {_digit} |'-'{_digit};
+fp_literal: {_digit}  ',' {_digit};
 sn_literal: { _floatPoints } 'E' { _floatPoints } | {_digit} 'E' {_digit};
 char_literal : '\''( _alpha | '\\''n' | '\\''t' | ' ') '\'';
 
@@ -26,18 +39,87 @@ char: 'c''h''a''r';
 void: 'v''o''i''d';
 prnt: 'p''r''n''t';
 int: 'i''n''t';
-and: 'a''n''d';
-or: 'o''r';
-not: 'n''o''t';
 proc: 'p''r''o''c';
 var: 'v''a''r';
+or: 'o''r';
+not: 'n''o''t';
 
-identifier: 'a'-'z'{_alpha};
+/* Identifier */
+identifier: _letter{_alpha};
 
-/* symbols */
-relacionalSymbol : '<' | '>' | '<''=' | '>''=' | '='| '<''>';
-arithmeticSymbol: '+' | '-' | '*' | '/' | '%' | 'a''n''d' | 'o''r' | 'n''o''t';
-assignSymbol: ':''=';
-specialSymbol: ')' | '(' | ',' | ';' | '{' | '}';
+/* Syntax Part */
+
+Program
+    : Variables Functions
+    ;
+Variables
+    : Variables Variable
+    | empty
+    ;
+Variable
+    : var Identifiers minus Type endline
+    ;
+Identifiers
+    : identifier
+    | identifier comma Identifiers
+    ;
+Type
+    : float
+    | int 
+    | char
+    | void
+    ;
+Functions
+    : Functions Function
+    | empty
+    ;
+Function
+    : proc NameArgs Block
+    | proc NameArgs minus Type Block
+    ;
+NameArgs
+    : identifier lbracket Args rbracket NameArgs
+    | empty
+    ;
+Args 
+    : identifier minus Type
+    | identifier minus Type comma Args
+    | empty
+    ;
+Block
+    : lbrace Commands rbrace
+    ;
+Commands 
+    : Commands Command
+    | empty
+    ;
+Command 
+    : Variable
+    | Assign
+    | Return
+    | Print
+    | WhileBlock
+    | Block
+    ;
+Assign
+    : identifier assign Expression endline
+    ;
+Print
+    : prnt lbracket Expressions rbracket endline
+    ;
+Return
+    : return Expression endline
+    ;
+WhileBlock
+    : while lbracket Expression rbracket Command
+    ;
+Expression
+    : identifier minus identifier
+    ;
+Expressions
+    : Expression 
+    | Expression comma Expression 
+    | empty
+    ;
 
 

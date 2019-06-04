@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/shaken1/ProjetoCompilador/lexer"
+	"github.com/shaken1/ProjetoCompilador/parser"
 	"github.com/shaken1/ProjetoCompilador/token"
 )
 
@@ -13,6 +12,12 @@ type Token struct {
 	line   uint
 }
 
+func synAnalyze(data string) error {
+	Lexer := lexer.NewLexer([]byte(data))
+	p := parser.NewParser()
+	_, err := p.Parse(Lexer)
+	return err
+}
 func lexAnalyze(data string) []Token {
 	var tokens []Token
 	Lexer := lexer.NewLexer([]byte(data))
@@ -30,9 +35,6 @@ func lexAnalyze(data string) []Token {
 		} else {
 			break
 		}
-	}
-	for _, token := range tokens {
-		fmt.Println(token)
 	}
 	return tokens
 }

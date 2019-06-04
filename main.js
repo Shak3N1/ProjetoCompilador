@@ -1,7 +1,11 @@
 /*jshint esversion: 6 */
-const { app, BrowserWindow } = require('electron');
-
-function createWindow () {
+const {
+  app,
+  BrowserWindow
+} = require('electron');
+const os = require('os');
+const exec = require('child_process').execFile;
+function createWindow() {
   // Create the browser window.
   let win = new BrowserWindow({
     width: 1280,
@@ -9,10 +13,16 @@ function createWindow () {
     webPreferences: {
       nodeIntegration: true
     },
-    title:"Rufus Editor",
+    title: "Rufus Editor",
   });
-  win.setMenuBarVisibility(false)
+  win.setMenuBarVisibility(false);
   win.loadFile('assets/editor.html');
 }
-
-app.on('ready', createWindow);
+app.on('ready', () => {
+  if (os.platform == 'win32') {
+    exec("ProjetoCompilador.exe");
+  } else if (os.platform == "linux") {
+    //exec("./ProjetoCompilador");
+  }
+  createWindow();
+});

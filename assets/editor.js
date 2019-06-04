@@ -1,14 +1,8 @@
 /*jshint esversion: 6 */
 const fs = require('fs');
 const net = require('net');
-const exec = require('child_process').execFile;
-const os = require('os');
 $(document).ready(function () {
-    if (os.platform == 'win32') {
-        exec("ProjetoCompilador.exe");
-    } else if (os.platform == "linux") {
-        exec("./ProjetoCompilador");
-    }
+    let lastData = "";
     class Token {
         constructor(token, lexeme, line) {
             this.token = token;
@@ -17,6 +11,9 @@ $(document).ready(function () {
         }
     }
     let client = new net.Socket();
+    client.connect(9261, '127.0.0.1', function () {
+        console.log("connected");
+    });
     $("#open-file").click(function () {
         fs.readFile(document.getElementById("upload").files[0].path, (err, data) => {
             if (err) {
@@ -37,25 +34,52 @@ $(document).ready(function () {
         });
     });
     $("#analyze-file").click(function () {
+        $("#table tbody > tr").remove();
+        $("#syn-errs").text('');
+        $("#lex-errs").text('');
         let data = $("#program-text").val();
-        client.write('getTokens ' + data);
+        //if (!(lastData == data)) {
+        client.write("getTokens " + data);
+        client.write("synAnalyze " + data);
+        lastData = data;
+        //}
     });
-
-    client.connect(9261, '127.0.0.1', function () {
-        console.log('Connected');
-    });
-
     client.on('data', function (data) {
-        console.log('Received: ' + data);
         let dataString = data.toString('utf8');
         let _data = dataString.split(" ");
+        console.log(_data);
         if (_data[0] == "sendToken") {
+
             let tokens = [];
+            let synError = false;
             for (let i = 1; i < _data.length; i += 4) {
+                if (_data[i - 1] == "synErr") {
+                    let expected = "";
+                    for (let x = i + 10; x < _data.length; x++) {
+                        if (_data[x] != "$") {
+                            if (x == _data.length - 1)
+                                expected += " " + _data[x];
+                            else
+                                expected += " '" + _data[x] + "'";
+                        }
+                    }
+                    _line = _data[i + 5].split("=");
+                    $("#syn-errs").append(
+                        "Token(s) esperado(s): " + expected +
+                        "\nEncontrado: " + _data[i + 3].replace(",", "") +
+                        "\nLinha " + _line[1].replace(",", ""));
+                    synError = true;
+                    break;
+                }
                 let _token = new Token(_data[i], _data[i + 1], _data[i + 2]);
                 tokens.push(_token);
             }
-            $("#table tbody > tr").remove();
+            if (!synError) {
+                $("#syn-errs").append(
+                    "Nenhum erro encontrado"
+                );
+            }
+            let lexError = false
             tokens.forEach((token) => {
                 $("#table tbody").append(
                     "<tr>" +
@@ -64,15 +88,20 @@ $(document).ready(function () {
                     "<td>" + token.line + "</td>" +
                     "</tr>"
                 );
-                $("#lex-errs").text('');
+
                 if (token.token == "ERROR") {
+                    lexError = true;
                     $("#lex-errs").append(
-                        token.token + " " +
-                        " Lexema: " + token.lexeme +
-                        " Linha: " + token.line
+                        " Lexema ' " + token.lexeme +
+                        " ' não reconhecido na linha " + token.line
                     );
                 }
             });
+            if (!lexError) {
+                $("#lex-errs").append(
+                    "Nenhum erro encontrado"
+                );
+            }
         }
     });
 });

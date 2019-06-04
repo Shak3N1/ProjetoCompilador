@@ -53,7 +53,13 @@ LOOP:
 						token.lexeme, token.line)))
 				}
 				w.Flush()
-				break
+			case "synAnalyze":
+				synErrs := synAnalyze(dataSplited[1])
+				if synErrs != nil {
+					fmt.Println(synErrs)
+					w.Write([]byte(fmt.Sprintf("synErr %s", synErrs)))
+				}
+				w.Flush()
 			}
 			if isPacketEnd(data) {
 				break LOOP
@@ -66,6 +72,6 @@ LOOP:
 }
 
 func isPacketEnd(data string) (over bool) {
-	over = strings.HasSuffix(data, "\rSTOPCONN\r")
+	over = strings.HasSuffix(data, "\rENDDOFFDATTAA\r")
 	return
 }
