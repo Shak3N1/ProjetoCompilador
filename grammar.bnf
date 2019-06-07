@@ -38,7 +38,7 @@ rbrace: '}';
 int_literal: {_digit};
 fp_literal: {_digit}  ',' {_digit};
 sn_literal: { _floatPoints } 'E' { _floatPoints } | {_digit} 'E' {_digit};
-char_literal : '\''( _alpha | '\\''n' | '\\''t' | ' ') '\'';
+char_literal : '\''( _alpha | '\\''n' | '\\''t' | ' '| '('|')' | ',' ) '\'';
 
 /* Reserved Words */
 if: 'i''f';

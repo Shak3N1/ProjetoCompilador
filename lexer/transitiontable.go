@@ -119,6 +119,12 @@ var TransTab = TransitionTable{
 		switch {
 		case r == 32: // [' ',' ']
 			return 32
+		case r == 40: // ['(','(']
+			return 32
+		case r == 41: // [')',')']
+			return 32
+		case r == 44: // [',',',']
+			return 32
 		case 48 <= r && r <= 57: // ['0','9']
 			return 33
 		case 65 <= r && r <= 90: // ['A','Z']

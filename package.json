@@ -1,12 +1,12 @@
 {
-  "name": "rufuseditor",
+  "name": "rfanalyzer",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "",
+  "author": "Guilherme Nascimento",
   "license": "ISC",
   "devDependencies": {
     "electron": "^5.0.1"

@@ -38,18 +38,16 @@ $(document).ready(function () {
         $("#syn-errs").text('');
         $("#lex-errs").text('');
         let data = $("#program-text").val();
-        //if (!(lastData == data)) {
-        client.write("getTokens " + data);
-        client.write("synAnalyze " + data);
-        lastData = data;
-        //}
+        if (lastData != data) {
+            client.write("getTokens " + data);
+            client.write("synAnalyze " + data);
+            lastData = data;
+        }
     });
     client.on('data', function (data) {
         let dataString = data.toString('utf8');
         let _data = dataString.split(" ");
-        console.log(_data);
         if (_data[0] == "sendToken") {
-
             let tokens = [];
             let synError = false;
             for (let i = 1; i < _data.length; i += 4) {
@@ -79,7 +77,7 @@ $(document).ready(function () {
                     "Nenhum erro encontrado"
                 );
             }
-            let lexError = false
+            let lexError = false;
             tokens.forEach((token) => {
                 $("#table tbody").append(
                     "<tr>" +

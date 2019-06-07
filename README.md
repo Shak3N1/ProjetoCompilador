@@ -1,15 +1,15 @@
 # Projeto Compilador
-Análise lexica - 100% </br>
-Análise Sintatica - 0% </br>
-Análise Semantica - 0% </br>
-Geração de código intermediario - 0% </br>
-Geração de código objeto - 0% </br>
-Interface - 80% </br>
+Análise Lexica - 100% </br>
+Análise Sintatica - 100% </br>
+Interface - 100% </br>
 <p align="center">
   <img width="716" height="400" src="https://i.imgur.com/tPYn8Vc.png">
 </p>
-
+### Requisitos
+GOLANG </br>
+nodejs </br>
 ### Executando
-primeiro compile o compilador com o comando "go build" </br>
-inicie o editor com o comando "npm start" </br>
+Compile o compilador com o comando "go build" </br>
+Faça o download das dependências com "npm install" </br>
+Inicie o Analyzer com o comando "npm start" </br>
 
