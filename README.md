@@ -6,12 +6,12 @@ Interface - 100% </br>
   <img width="716" height="400" src="https://i.imgur.com/tPYn8Vc.png">
 </p>
 
-## Requisitos
+### Requisitos
 
 GOLANG </br>
 nodejs </br>
 
-## Executando
+### Executando
 
 Compile o compilador com o comando "go build" </br>
 Faça o download das dependências com "npm install" </br>
